@@ -1,1 +1,1261 @@
-
+{"input": "25년 6월 생산량 알려줘", "output": "SQL Query"}
+{"input": "AMR 5호 배터리 상태 조회해줘", "output": "SQL Query"}
+{"input": "기계별 불량률 그래프로 시각화해줘", "output": "Function Call"}
+{"input": "공장 안전 관리 절차에 대해 알려줘", "output": "Rag Response"}
+{"input": "오늘 점심 뭐 먹을까?", "output": "General Response"}
+{"input": "7월 15일 생산량 차트로 보여줘", "output": "Function Call"}
+{"input": "기계 고장 시 어떻게 대처해야 하나?", "output": "Rag Response"}
+{"input": "지난 3월 생산량 통계 알려줘", "output": "SQL Query"}
+{"input": "안녕!", "output": "General Response"}
+{"input": "AMR 9호 위치 히스토리 조회해줘", "output": "SQL Query"}
+{"input": "기계별 주간 가동 시간 알려줘", "output": "SQL Query"}
+{"input": "월별 생산량 라인 그래프로 그려줘", "output": "Function Call"}
+{"input": "불량 발생 원인 분석해줘", "output": "Rag Response"}
+{"input": "수고했어!", "output": "General Response"}
+{"input": "AMR 7호 지금 위치 알려줘", "output": "Function Call"}
+{"input": "기계 온도 변화 통계 알려줘", "output": "SQL Query"}
+{"input": "생산성 높이려면 어떻게 해야 해?", "output": "Rag Response"}
+{"input": "기계 가동 내역 막대 그래프로 보여줘", "output": "Function Call"}
+{"input": "오늘 날씨 어때?", "output": "General Response"}
+{"input": "2분기 생산량 최대값 알려줘", "output": "SQL Query"}
+{"input": "월별 불량률 변화 시각화해줘", "output": "Function Call"}
+{"input": "기계 정비 주기 알려줘", "output": "Rag Response"}
+{"input": "고마워", "output": "General Response"}
+{"input": "AMR 6호 주행 거리 알려줘", "output": "SQL Query"}
+{"input": "생산량 증감 추이 차트로 보여줘", "output": "Function Call"}
+{"input": "기계 이상 발생 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "오늘 하루 어땠어?", "output": "General Response"}
+{"input": "주간 생산량 합계 알려줘", "output": "SQL Query"}
+{"input": "기계별 평균 온도 그래프로 보여줘", "output": "Function Call"}
+{"input": "AMR 8호 위치 히스토리 조회해줘", "output": "SQL Query"}
+{"input":"불량률을 줄이려면 어떤 방법이 있을까요?","output":"Rag Response"}
+{"input":"오늘 점심 메뉴 추천해줄래?","output":"General Response"}
+{"input":"기계 가동률 총합을 알려줘","output":"SQL Query"}
+{"input":"AMR 2호 이동 거리 데이터를 그래프로 시각화해줘","output":"Function Call"}
+{"input":"기계 문제 발생 시 어떻게 대처해야 하나요?","output":"Rag Response"}
+{"input":"잘 자요","output":"General Response"}
+{"input":"이번 주 불량률 통계 알려줘","output":"SQL Query"}
+{"input":"기계별 온도 변동을 차트로 보여줘","output":"Function Call"}
+{"input":"공장 에너지 절약 방법에 대해 알려줘","output":"Rag Response"}
+{"input":"안녕하세요!","output":"General Response"}
+{"input":"기계별 월간 가동 시간 조회해줘","output":"SQL Query"}
+{"input":"5월 생산량을 선 그래프로 보여줘","output":"Function Call"}
+{"input":"기계 문제 발생 시 대처법 알려줘","output":"Rag Response"}
+{"input":"오늘 기분 어때?","output":"General Response"}
+{"input":"하루 생산량 합계를 알려줘","output":"SQL Query"}
+{"input":"기계 가동률 변화 차트로 보여줘","output":"Function Call"}
+{"input":"AMR 정비 주기 알려줘","output":"Rag Response"}
+{"input":"기계별 불량률 데이터 보여줘","output":"SQL Query"}
+{"input":"생산량 추이 차트로 시각화해줘","output":"Function Call"}
+{"input":"기계 고장 시 대처법 알려줘","output":"Rag Response"}
+{"input":"고마워!","output":"General Response"}
+{"input":"5월 3일 생산량 수치 알려줘","output":"SQL Query"}
+{"input":"기계별 불량률 추이 그래프로 보여줘","output":"Function Call"}
+{"input":"AMR 배터리 관리법 알려줘","output":"Rag Response"}
+{"input":"잘 자!","output":"General Response"}
+{"input":"기계 가동 내역 조회해줘","output":"SQL Query"}
+{"input":"주간 생산량 변동을 시각화해줘","output":"Function Call"}
+{"input":"기계 문제 발생 시 대응법 알려줘","output":"Rag Response"}
+{"input":"일별 불량률 총합 알려줘","output":"SQL Query"}
+{"input":"기계별 온도 분포 차트로 보여줘","output":"Function Call"}
+{"input":"공장 안전 관련 규정 자세히 설명해줘","output":"Rag Response"}
+{"input":"AMR 4호 위치 기록 알려줘","output":"SQL Query"}
+{"input":"월별 생산량 데이터를 그래프로 보여줘","output":"Function Call"}
+{"input":"기계 고장 시 어떻게 대처해야 하나?","output":"Rag Response"}
+{"input":"고마워요!","output":"General Response"}
+{"input":"이번 주 생산량 알려줘","output":"SQL Query"}
+{"input":"불량률 변화 추이를 시각화해줘","output":"Function Call"}
+{"input":"기계 정비하는 방법 알려줘","output":"Rag Response"}
+{"input":"AMR 1호 주행 거리 조회해줘","output":"SQL Query"}
+{"input":"월간 생산량 트렌드를 그래프로 보여줘","output":"Function Call"}
+{"input":"기계 문제 발생 시 대처법 알려줘","output":"Rag Response"}
+{"input":"2024년 5월 생산량 알려줘","output":"SQL Query"}
+{"input":"기계별 가동 시간 차트로 보여줘","output":"Function Call"}
+{"input":"생산성 높이는 방법 알려줘","output":"Rag Response"}
+{"input":"좋은 하루 보내세요","output":"General Response"}
+{"input":"AMR 5호 배터리 상태 알려줘","output":"SQL Query"}
+{"input":"5월 생산량 선 그래프로 보여줘","output":"Function Call"}
+{"input":"기계 문제 시 대처법 알려줘","output":"Rag Response"}
+{"input":"이번 주 불량률 합계 알려줘","output":"SQL Query"}
+{"input":"기계별 온도 분포 시각화해줘","output":"Function Call"}
+{"input":"공장 안전 수칙 알려줘","output":"Rag Response"}
+{"input":"AMR 2호 위치 조회해줘","output":"SQL Query"}
+{"input":"월별 생산량 막대그래프로 보여줘","output":"Function Call"}
+{"input":"불량률 낮추는 방법 알려줘","output":"Rag Response"}
+{"input":"이번 달 생산 현황 알려줘","output":"SQL Query"}
+{"input":"기계별 고장률 차트로 보여줘","output":"Function Call"}
+{"input":"AMR 1호 오늘 주행 거리 확인해줘","output":"SQL Query"}
+{"input":"불량률 감소하는 법 알려줘","output":"Rag Response"}
+{"input":"5월 15일 생산량 데이터 알려줘","output":"SQL Query"}
+{"input":"월별 불량률 시각화해줘","output":"Function Call"}
+{"input":"기계 이상 문제 발생 시 추천 대응 방법 알려줘","output":"Rag Response"}
+{"input":"AMR 3호 최근 배터리 상태 점검 기록 확인해줘","output":"SQL Query"}
+{"input":"생산량 변화 추이를 시각화해줘","output":"Function Call"}
+{"input":"각 기계별 누적 사용 시간 데이터 조회해줘","output":"SQL Query"}
+{"input":"공장 운영 지침 자세하게 알려줄래?","output":"Rag Response"}
+{"input":"잘 자요, 내일 또 만나!","output":"General Response"}
+{"input":"지난 달 생산량 관련 통계 수치 제공해줘","output":"SQL Query"}
+{"input":"기계별 온도 분포 그래프 형태로 보여줘","output":"Function Call"}
+{"input":"기계 고장 발생 시 점검 절차 안내해줘","output":"Rag Response"}
+{"input":"안녕하세요, 오늘도 고생 많으셨어요","output":"General Response"}
+{"input":"월별 생산 데이터 선 그래프로 확인하고 싶어","output":"Function Call"}
+{"input":"불량률 낮추는 방법에 대해 조언해줘","output":"Rag Response"}
+{"input":"5월 전체 생산량 수치 알려줘","output":"SQL Query"}
+{"input":"주간 불량률 시각화 자료 만들어줘","output":"Function Call"}
+{"input":"기계 정기 점검 기준 및 절차 알려줘","output":"Rag Response"}
+{"input":"AMR 1호 최근 주행 거리 데이터 보여줘","output":"SQL Query"}
+{"input":"생산량 관련 막대 그래프 생성해줘","output":"Function Call"}
+{"input":"기계 이상 상황 발생 시 대처법 알려줘","output":"Rag Response"}
+{"input":"월별 생산 통계 정보 제공해줘","output":"SQL Query"}
+{"input":"생산량 변동 추이를 그래프로 시각화해줘","output":"Function Call"}
+{"input":"기계 고장 해결 방안 알려줄 수 있어?","output":"Rag Response"}
+{"input":"일별 불량률 관련 데이터 조회해줘","output":"SQL Query"}
+{"input":"기계 온도 변화 추이를 그래프 형태로 보여줘","output":"Function Call"}
+{"input":"공장 운영 메뉴얼 다시 한번 설명해줘","output":"Rag Response"}
+{"input":"AMR 4호 위치 데이터 최근 기록 확인해줘","output":"SQL Query"}
+{"input":"한 달간 생산량 차트로 시각화해줘","output":"Function Call"}
+{"input":"불량률을 줄이는 유용한 팁 알려줘","output":"Rag Response"}
+{"input":"이번 주 생산량 총합 알려줘","output":"SQL Query"}
+{"input":"생산량 증감 추이를 그래프로 보고 싶어","output":"Function Call"}
+{"input":"기계 점검 주기와 관련 규정 알려줘","output":"Rag Response"}
+{"input":"AMR 5호 최근 배터리 상태 점검해줘","output":"SQL Query"}
+{"input":"월간 생산량 선 그래프 보고 싶어","output":"Function Call"}
+{"input":"2024년 3월 생산 데이터 알려줘","output":"SQL Query"}
+{"input":"기계별 가동 시간 차트 만들어줘","output":"Function Call"}
+{"input":"생산성 향상할 수 있는 방법 추천해줘","output":"Rag Response"}
+{"input":"AMR 3호 현재까지 주행 거리 알려줘","output":"SQL Query"}
+{"input":"기계 고장 났을 때 해결책 알려줘","output":"Rag Response"}
+{"input":"주간 불량률 통계 데이터 제공해줘","output":"SQL Query"}
+{"input":"기계 온도 분포 그래프로 보여줘","output":"Function Call"}
+{"input":"공장 안전 수칙 자세히 알려줘","output":"Rag Response"}
+{"input":"AMR 2호 위치 정보 조회해줘","output":"SQL Query"}
+{"input":"월별 생산량 막대 그래프 그려줘","output":"Function Call"}
+{"input":"불량률 낮추는 방법 추천해줘","output":"Rag Response"}
+{"input":"이번 달 생산 실적 알려줘","output":"SQL Query"}
+{"input":"기계별 고장률 차트 만들어줘","output":"Function Call"}
+{"input":"AMR 1호 오늘 주행 거리 데이터 알려줘","output":"SQL Query"}
+{"input":"불량률 줄이는 방법 좀 알려줘","output":"Rag Response"}
+{"input":"5월 15일 생산량 데이터 조회해줘","output":"SQL Query"}
+{"input":"월별 불량률 시각화 자료 부탁해","output":"Function Call"}
+{"input":"기계 이상 발생 시 대처법 추천해줘","output":"Rag Response"}
+{"input":"AMR 3호 배터리 상태 최근 기록 확인해줘","output":"SQL Query"}
+{"input":"생산량 추세 그래프로 보여줘","output":"Function Call"}
+{"input":"기계별 사용 시간 데이터 확인해줘","output":"SQL Query"}
+{"input":"공장 운영 지침 자세히 알려줘","output":"Rag Response"}
+{"input":"지난달 생산량 통계 데이터 알려줘","output":"SQL Query"}
+{"input":"기계별 온도 분포 그래프 요청할게","output":"Function Call"}
+{"input":"기계 고장 시 기본 점검 절차 알려줘","output":"Rag Response"}
+{"input":"월간 생산량 선 그래프로 보고 싶어","output":"Function Call"}
+{"input":"불량률 개선할 방법 추천해줘","output":"Rag Response"}
+{"input":"5월 전체 생산량 수치 알려줘","output":"SQL Query"}
+{"input":"주간 불량률 그래프로 시각화해줘","output":"Function Call"}
+{"input":"기계 정기 점검 기준 알려줄 수 있니?","output":"Rag Response"}
+{"input":"AMR 1호 주행 거리 기록 데이터 요청해","output":"SQL Query"}
+{"input":"이번 달 기계별 생산 수치 알려줘","output":"SQL Query"}
+{"input":"5월 10일 오전 9시 기계 가동 상태 조회 부탁해","output":"SQL Query"}
+{"input":"월별 불량률 변화 그래프로 보여줄래?","output":"Function Call"}
+{"input":"AMR 2호 배터리 잔량 알려줘","output":"SQL Query"}
+{"input":"기계 고장 났을 때 처리 방법 알려줘","output":"Rag Response"}
+{"input":"내일 점심 메뉴 추천해줘","output":"General Response"}
+{"input":"AMR 7호 현재 위치 알려줘","output":"Function Call"}
+{"input":"최근 3개월 생산량 통계 조회해줘","output":"SQL Query"}
+{"input":"생산성 올리는 팁 좀 추천해줘","output":"Rag Response"}
+{"input":"기계별 온도 변화 그래프 만들어줘","output":"Function Call"}
+{"input":"지난주 불량품 수량 알려줘","output":"SQL Query"}
+{"input":"오늘 날씨 알려줄래?","output":"General Response"}
+{"input":"AMR 5호 주행 거리 데이터 보여줘","output":"SQL Query"}
+{"input":"기계 점검 절차 상세히 알려줘","output":"Rag Response"}
+{"input":"지난 1년간 생산량 변동 그래프로 보여줘","output":"Function Call"}
+{"input":"수고 많았어!","output":"General Response"}
+{"input":"5월 1일부터 15일까지 불량률 조회해줄래?","output":"SQL Query"}
+{"input":"AMR 3호 위치 기록 조회해줘","output":"SQL Query"}
+{"input":"기계별 에너지 사용량 선 그래프로 시각화해줘","output":"Function Call"}
+{"input":"생산설비 안전 수칙 알려줄래?","output":"Rag Response"}
+{"input":"2024년 3월 생산량 알려줘","output":"SQL Query"}
+{"input":"AMR 1호 배터리 상태 지금 확인해줘","output":"SQL Query"}
+{"input":"기계별 불량률 파이 차트로 표현해줘","output":"Function Call"}
+{"input":"불량률이 왜 이렇게 높은지 원인 분석해줘","output":"Rag Response"}
+{"input":"점심 뭐 먹을지 고민 중이야","output":"General Response"}
+{"input":"AMR 3호 현재 위치 알려줘","output":"Function Call"}
+{"input":"이번 주 생산량 데이터 조회해줘","output":"SQL Query"}
+{"input":"기계 온도 변화 그래프 만들어줘","output":"Function Call"}
+{"input":"생산설비 문제 발생 시 해결 방법 알려줘","output":"Rag Response"}
+{"input":"좋은 하루 보내!","output":"General Response"}
+{"input":"기계별 사용 시간 데이터 요청해","output":"SQL Query"}
+{"input":"AMR 주행 거리 정보 보여줘","output":"SQL Query"}
+{"input":"1분기 생산량 선 그래프로 보고 싶어","output":"Function Call"}
+{"input":"기계 점검 기준 알려줄 수 있니?","output":"Rag Response"}
+{"input":"내일 날씨 알려줘","output":"General Response"}
+{"input":"5월 15일 오후 6시 기계 상태 조회해줘","output":"SQL Query"}
+{"input":"AMR 4호 위치 기록 데이터 보여줘","output":"SQL Query"}
+{"input":"생산량 변화 추이 그래프 만들어줘","output":"Function Call"}
+{"input":"기계 안전 점검 방법 안내해줘","output":"Rag Response"}
+{"input":"감사합니다!","output":"General Response"}
+{"input":"5월 기계 사용 내역 알려줘","output":"SQL Query"}
+{"input":"AMR 6호 배터리 상태 확인해줘","output":"SQL Query"}
+{"input":"불량률 변화 차트로 보고 싶어","output":"Function Call"}
+{"input":"기계 이상 발생 시 대처 방법 알려줘","output":"Rag Response"}
+{"input":"안녕~","output":"General Response"}
+{"input":"5월 생산량 알려줘","output":"SQL Query"}
+{"input":"AMR 3호 주행 거리 그래프 보여줘","output":"Function Call"}
+{"input":"기계별 에너지 사용량 데이터 알려줘","output":"SQL Query"}
+{"input":"설비 점검 절차 안내해줘","output":"Rag Response"}
+{"input":"오늘 날씨는 어때?","output":"General Response"}
+{"input":"기계 점검 시기 알려줘","output":"Rag Response"}
+{"input":"AMR 1호 위치 알려줘","output":"Function Call"}
+{"input":"이번 달 기계 사용 기록 조회해줘","output":"SQL Query"}
+{"input":"월별 생산량 그래프로 만들어줘","output":"Function Call"}
+{"input":"기계 고장 났을 때 누구에게 연락해야 해?","output":"Rag Response"}
+{"input":"최근 기계 온도 너무 높은데 이유가 뭐야?","output":"Rag Response"}
+{"input":"AMR 2호 배터리 상태 체크해줘","output":"SQL Query"}
+{"input":"지난달 불량률 데이터 알려줘","output":"SQL Query"}
+{"input":"기계별 가동 시간 차트 보여줘","output":"Function Call"}
+{"input":"AMR 3호 위치 이력 조회해줘","output":"SQL Query"}
+{"input":"이번 주 생산량 통계 확인해줘","output":"SQL Query"}
+{"input":"기계별 온도 변화 정보 요청해","output":"SQL Query"}
+{"input":"생산량 추세 그래프로 보고 싶어","output":"Function Call"}
+{"input":"기계 이상 발생 시 대처법 알려줘","output":"Rag Response"}
+{"input":"AMR 4호 배터리 잔량 상태 확인해줘","output":"SQL Query"}
+{"input":"5월 10일 오후 6시 기계 상태 조회해줘","output":"SQL Query"}
+{"input":"이번 달 불량률 수치 보여줘","output":"SQL Query"}
+{"input":"기계 점검 방법 설명해줘","output":"Rag Response"}
+{"input":"안녕, 오늘 기분은 어때?","output":"General Response"}
+{"input":"고마워~","output":"General Response"}
+{"input":"AMR 위치 기록 보여줘","output":"SQL Query"}
+{"input":"기계별 생산량 차트 만들어줘","output":"Function Call"}
+{"input":"기계 고장 났을 때 대처법 알려줘","output":"Rag Response"}
+{"input":"오늘 점심 메뉴 추천해줘","output":"General Response"}
+{"input":"AMR 5호 주행거리 그래프 그려줘","output":"Function Call"}
+{"input":"월간 생산량 수치 조회해줘","output":"SQL Query"}
+{"input":"기계 에너지 사용량 통계 알려줘","output":"SQL Query"}
+{"input":"불량률이 높으면 어떻게 대처해야 하나요?","output":"Rag Response"}
+{"input":"좋은 날 되세요!","output":"General Response"}
+{"input":"기계별 사용 시간 데이터 보여주세요","output":"SQL Query"}
+{"input":"AMR 6호 위치 지금 확인해줘","output":"Function Call"}
+{"input":"생산량 그래프로 보고 싶어요","output":"Function Call"}
+{"input":"기계 점검 기준 좀 설명해줘","output":"Rag Response"}
+{"input":"날씨가 정말 좋네요","output":"General Response"}
+{"input":"2024년 4월 1일부터 30일까지 계획량 알려줘","output":"SQL Query"}
+{"input":"AMR 1호 현재 온도 알려줘","output":"SQL Query"}
+{"input":"작년 계획량 월별 그래프 보여줘","output":"Function Call"}
+{"input":"기계 관리 절차가 뭐야?","output":"Rag Response"}
+{"input":"너 잘생겼어?","output":"General Response"}
+{"input":"2024년 하반기와 2025년 상반기 생산량 차트로 보여줘","output":"Function Call"}
+{"input":"데이터 저장에 이상이 생기면 어떻게 해야 해?","output":"Rag Response"}
+{"input":"작년 생산량과 계획량 정리해줘","output":"SQL Query"}
+{"input":"헬로!","output":"General Response"}
+{"input":"오늘 AMR 위치 내역 알려줘","output":"SQL Query"}
+{"input":"오늘 1번 기계 가동 시간 알려줘","output":"SQL Query"}
+{"input":"올해 생산량 월별 그래프 보여줘","output":"Function Call"}
+{"input":"이번 달 불량 발생 원인 분석해줘","output":"Rag Response"}
+{"input":"수고했어요!","output":"General Response"}
+{"input":"AMR 14호 현재 위치 알려줘","output":"Function Call"}
+{"input":"올해 1분기 공장 습도 변화 데이터 보여줘","output":"SQL Query"}
+{"input":"생산량이 너무 저조한데 원인 뭐야?","output":"Rag Response"}
+{"input":"작년 2분기, 3분기 생산량 바 그래프 그려줘","output":"Function Call"}
+{"input":"휴가 가고 싶다","output":"General Response"}
+{"input":"2025년 5월 중 계획량 가장 적은 날 알려줘","output":"SQL Query"}
+{"input":"이번 달 생산량과 계획량 차이 그래프로 보여줘","output":"Function Call"}
+{"input":"기기 정비는 언제 다시 해야 하지?","output":"Rag Response"}
+{"input":"땡큐!","output":"General Response"}
+{"input": "작년 하반기 AMR 22호 주행 거리 알려줘", "output": "SQL Query"}
+{"input": "올해 생산량 증감 추이 차트로 보고 싶어", "output": "Function Call"}
+{"input": "화재 발생 시 대처법 매뉴얼 좀 알려줘", "output": "Rag Response"}
+{"input": "오늘 수고했어", "output": "General Response"}
+{"input": "오늘까지 누적 생산량 알려줄래?", "output": "SQL Query"}
+{"input": "작년 5번 기계 월별 평균 온도 그래프로 만들어줘", "output": "Function Call"}
+{"input": "AMR 11호 가동 시간 조회 가능해?", "output": "SQL Query"}
+{"input": "직원들 사기 올리려면 어떤 방법이 좋을까?", "output": "Rag Response"}
+{"input": "주말에 뭐 하면 좋을까?", "output": "General Response"}
+{"input": "오늘 기계 전체 가동률 알려줘", "output": "SQL Query"}
+{"input": "작년 AMR 7호 월간 이동 거리 시각화해줘", "output": "Function Call"}
+{"input": "4번 기계 경고등 켜졌는데 이유가 뭐야?", "output": "Rag Response"}
+{"input": "이번 주말 나들이 어디 갈까?", "output": "General Response"}
+{"input": "월간 계획량 합계가 어떻게 돼?", "output": "SQL Query"}
+{"input": "올해 여름 4번 기기 온도 변화 그래프로 보여줘", "output": "Function Call"}
+{"input": "에너지 절약할 수 있는 팁 좀 알려줘", "output": "Rag Response"}
+{"input": "안녕!", "output": "General Response"}
+{"input": "4번 기계 이번 달 총 가동 시간 알려줘", "output": "SQL Query"}
+{"input": "2025년 3월 생산량 선 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "정전 발생 시 대처 방법 알려줄 수 있어?", "output": "Rag Response"}
+{"input": "무슨 말인지 모르겠어", "output": "General Response"}
+{"input": "이번 달 일별 생산량 보여줄래?", "output": "SQL Query"}
+{"input": "올해 상반기 기계 가동률 차트 만들어줘", "output": "Function Call"}
+{"input": "AMR 배터리 관리 방법 알려줘", "output": "Rag Response"}
+{"input": "기계별 생산량 데이터 조회해줘", "output": "SQL Query"}
+{"input": "작년 생산 트렌드 차트로 보여줄 수 있어?", "output": "Function Call"}
+{"input": "기계 이상 발생 시 어떻게 해야 하지?", "output": "Rag Response"}
+{"input": "고마워", "output": "General Response"}
+{"input": "11월 28일 생산량 데이터 조회해줘", "output": "SQL Query"}
+{"input": "기계별 생산량 변화 선 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "AMR 이상 징후 있어?", "output": "Rag Response"}
+{"input": "잘 부탁해", "output": "General Response"}
+{"input": "올해 기계 가동한 날짜 알려줘", "output": "SQL Query"}
+{"input": "상반기 주간 생산량 추이 그래프로 보여줘", "output": "Function Call"}
+{"input": "기계 경고등 점멸 시 대처 방법 알려줘", "output": "Rag Response"}
+{"input": "올해 계획량 합계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 그래프 그려줘", "output": "Function Call"}
+{"input": "공장 안전 규정 알려줘", "output": "Rag Response"}
+{"input": "6번 기계 위치 알려줘", "output": "SQL Query"}
+{"input": "작년 월별 생산량 그래프 보여줘", "output": "Function Call"}
+{"input": "AMR 고장났어", "output": "Rag Response"}
+{"input": "좋아", "output": "General Response"}
+{"input": "이번 주 생산 계획 알려줘", "output": "SQL Query"}
+{"input": "생산량 그래프로 그려줘", "output": "Function Call"}
+{"input": "기계 정비 방법 알려줘", "output": "Rag Response"}
+{"input": "8번 AMR 이번 주 주행 거리 알려줘", "output": "SQL Query"}
+{"input": "2025년 2분기 계획량 월별 그래프로 보여줘", "output": "Function Call"}
+{"input": "AMR 이상 행동 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "2025년 5, 6, 9월 생산량 알려줘", "output": "SQL Query"}
+{"input": "17번 기계 가동 시간 그래프로 보여줘", "output": "Function Call"}
+{"input": "생산성 높이는 방법 알려줘", "output": "Rag Response"}
+{"input": "별일 없길 바래", "output": "General Response"}
+{"input": "AMR 12호 배터리 잔량 알려줘", "output": "SQL Query"}
+{"input": "올해 9월 계획량 막대그래프로 보여줘", "output": "Function Call"}
+{"input": "AMR 메뉴얼 알려줘", "output": "Rag Response"}
+{"input": "월간 불량품 수 총합 알려줘", "output": "SQL Query"}
+{"input": "상반기 6번 기계 온도 변화 시각화해줘", "output": "Function Call"}
+{"input": "설비 안전 수칙 알려줘", "output": "Rag Response"}
+{"input": "지금 AMR들 위치 알려줘", "output": "SQL Query"}
+{"input": "올해 월별 생산 계획 그래프로 보여줘", "output": "Function Call"}
+{"input": "불량률 줄이는 방법 알려줘", "output": "Rag Response"}
+{"input": "올해 생산 현황 알려줘", "output": "SQL Query"}
+{"input": "기계별 고장 빈도 차트로 보여줘", "output": "Function Call"}
+{"input": "AMR 9호 오늘 총 주행 거리 얼마야?", "output": "SQL Query"}
+{"input": "효율성 높이는 비법 있어?", "output": "Rag Response"}
+{"input": "10월 25일 생산량 내역 조회해줘", "output": "SQL Query"}
+{"input": "작년 월별 생산량 시각화해줘", "output": "Function Call"}
+{"input": "AMR 배터리 이상 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "AMR 13호 최근 배터리 추이 알려줘", "output": "SQL Query"}
+{"input": "이번 달 생산량 변화 선 그래프로 보여줘", "output": "Function Call"}
+{"input": "오늘 기계별 동작 시간 조회해줘", "output": "SQL Query"}
+{"input": "4번 기기 모델 매뉴얼 알려줘", "output": "Rag Response"}
+{"input": "퇴근합니다, 내일 봐요", "output": "General Response"}
+{"input": "지난주 생산량 합계 알려줘", "output": "SQL Query"}
+{"input": "1, 2분기 생산량 월별 그래프 보여줘", "output": "Function Call"}
+{"input": "기본 점검 방법 알려줄래?", "output": "Rag Response"}
+{"input": "오늘도 수고했어요", "output": "General Response"}
+{"input": "3분기 계획량 선 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "지난주 생산량이 계획량을 못 따라간 이유와 개선 방법 알려줘", "output": "SQL Query"}
+{"input": "3월 한 달 생산량 알려줘", "output": "SQL Query"}
+{"input": "이번 달 주별 불량량 시각화해줘", "output": "Function Call"}
+{"input": "기계 점검 기준 알려줘", "output": "Rag Response"}
+{"input": "AMR 28호 주행 거리 얼마야?", "output": "SQL Query"}
+{"input": "계획량 바 그래프로 보여줘", "output": "Function Call"}
+{"input": "설비 이상 전조 증상과 대처법 알려줘", "output": "Rag Response"}
+{"input": "올해 월별 계획량 합계 조회해줘", "output": "SQL Query"}
+{"input": "생산량 변동 파이 그래프로 보여줘", "output": "Function Call"}
+{"input": "기계 고장 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "이번 달 일별 불량 발생 데이터 조회해줘", "output": "SQL Query"}
+{"input": "작년 하반기 기계 온도 변화 그래프로 보여줘", "output": "Function Call"}
+{"input": "설비 관련 상세 정보 제공해줘", "output": "Rag Response"}
+{"input": "AMR 6호의 실시간 위치 데이터를 알려줘", "output": "SQL Query"}
+{"input": "3분기 계획 수량을 시각화된 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "불량 발생률을 줄일 수 있는 효과적인 방법 있나?", "output": "Rag Response"}
+{"input": "이번 주 생산 실적의 총합을 확인해줘", "output": "SQL Query"}
+{"input": "생산 계획 변동 사항을 시각적으로 보여줘", "output": "Function Call"}
+{"input": "설비 점검 주기에 대한 권장 사항 알려줘", "output": "Rag Response"}
+{"input": "AMR 7호 배터리 잔량 최신 상태 데이터 보여줘", "output": "SQL Query"}
+{"input": "10월 라인별 생산량을 막대 그래프로 시각화해줘", "output": "Function Call"}
+{"input": "2025년 8월 생산 계획 수치를 조회해줘", "output": "SQL Query"}
+{"input": "설비별 운전 시간을 비교할 수 있는 그래프 만들어줘", "output": "Function Call"}
+{"input": "작업 효율성을 높이기 위한 조언을 알려줘", "output": "Rag Response"}
+{"input": "AMR 2호의 주행 거리 데이터를 조회해줘", "output": "SQL Query"}
+{"input": "설비 문제 발생 시 대응 절차를 설명해줘", "output": "Rag Response"}
+{"input": "이번 주 불량 통계 수치를 보여줘", "output": "SQL Query"}
+{"input": "설비 온도 변화 데이터를 그래프로 표현해줘", "output": "Function Call"}
+{"input": "현장 안전관리 지침을 설명해줘", "output": "Rag Response"}
+{"input": "AMR 5호의 현재 위치를 확인해줘", "output": "SQL Query"}
+{"input": "월별 계획 수량을 선 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "불량률을 낮추기 위한 구체적인 방법을 제안해줘", "output": "Rag Response"}
+{"input": "하반기 생산 현황을 요약해서 알려줘", "output": "SQL Query"}
+{"input": "설비 고장률을 비교하는 차트를 보여줘", "output": "Function Call"}
+{"input": "AMR 1호의 오늘 주행 거리 데이터를 알려줘", "output": "SQL Query"}
+{"input": "불량률을 낮추는 실질적인 방안을 알려줘", "output": "Rag Response"}
+{"input": "2월 22일 생산 실적 데이터를 확인해줘", "output": "SQL Query"}
+{"input": "월별 불량 발생률을 그래프로 보여줘", "output": "Function Call"}
+{"input": "설비 이상 발생 시 대응 방안을 알려줘", "output": "Rag Response"}
+{"input": "AMR 3호 배터리 상태 최신 데이터를 보여줘", "output": "SQL Query"}
+{"input": "생산 실적 추세를 그래프로 만들어줘", "output": "Function Call"}
+{"input": "설비별 누적 사용 시간을 조회해줘", "output": "SQL Query"}
+{"input": "공장 운영 관련 핵심 매뉴얼 내용을 알려줘", "output": "Rag Response"}
+{"input": "3월 한 달간 전체 생산 수량을 집계해줘", "output": "SQL Query"}
+{"input": "설비별 온도 변동 차이를 시각화해서 보여줘", "output": "Function Call"}
+{"input": "설비 고장 발생 시 따라야 할 기본 점검 절차 알려줄래?", "output": "Rag Response"}
+{"input": "월별 생산 실적을 선 차트 형태로 시각화해 보고 싶어", "output": "Function Call"}
+{"input": "불량률을 개선할 수 있는 효과적인 방안 추천해줘", "output": "Rag Response"}
+{"input": "4월 전체 생산 수량 총합을 알려줘", "output": "SQL Query"}
+{"input": "주간 불량 수치 추이를 그래프로 시각화해줘", "output": "Function Call"}
+{"input": "설비 점검 기준과 절차에 대해 알려줘", "output": "Rag Response"}
+{"input": "AMR 1호 최근 주행 거리 기록 데이터 알려줘", "output": "SQL Query"}
+{"input": "이번 분기 설비별 생산량 현황 알려줄래?", "output": "SQL Query"}
+{"input": "5월 12일 오전 10시 기준 설비 가동 상태를 보여줘", "output": "SQL Query"}
+{"input": "월간 불량 발생 빈도 추세를 그래프로 볼 수 있을까?", "output": "Function Call"}
+{"input": "AMR 2호 배터리 상태 현재 어떤지 알려줘", "output": "SQL Query"}
+{"input": "설비 고장 시 신속 대응을 위한 기본 방법 알려줘", "output": "Rag Response"}
+{"input": "내일 점심 메뉴 추천 좀 해줘", "output": "General Response"}
+{"input": "AMR 7호 현재 위치 정보 확인해줘", "output": "Function Call"}
+{"input": "최근 4개월간 생산 계획 수치 데이터를 보여줘", "output": "SQL Query"}
+{"input": "생산성 향상을 위한 실질적인 방법 추천해줘", "output": "Rag Response"}
+{"input": "설비별 온도 변화 추이를 시각화해줘", "output": "Function Call"}
+{"input": "최근 2주간 불량품 발생 건수 확인해줘", "output": "SQL Query"}
+{"input": "이번 주 날씨 정보 좀 알려줄래?", "output": "General Response"}
+{"input": "AMR 5호 이동 거리 데이터를 확인할 수 있을까?", "output": "SQL Query"}
+{"input": "설비 점검 절차를 자세히 설명해줘", "output": "Rag Response"}
+{"input": "작년 하반기 생산 수량 변화 차트를 그려줘", "output": "Function Call"}
+{"input": "수고 많았어~", "output": "General Response"}
+{"input": "6월 1일부터 20일까지 불량 빈도 조회 가능할까?", "output": "SQL Query"}
+{"input": "AMR 3호 이동 경로 데이터를 조회해줘", "output": "SQL Query"}
+{"input": "설비별 전력 소비량을 선형 차트로 보여줘", "output": "Function Call"}
+{"input": "생산 설비 안전 수칙을 정리해서 알려줘", "output": "Rag Response"}
+{"input": "2025년 9월 생산 실적 데이터를 확인할 수 있을까?", "output": "SQL Query"}
+{"input": "AMR 1호 배터리 잔량 현 상태 알려줘", "output": "SQL Query"}
+{"input": "설비별 불량률을 파이 차트로 시각화해줘", "output": "Function Call"}
+{"input": "불량률이 높은 이유와 원인 분석 좀 해줘", "output": "Rag Response"}
+{"input": "점심 메뉴 추천 부탁해", "output": "General Response"}
+{"input": "AMR 3호 현재 위치 확인 가능할까?", "output": "Function Call"}
+{"input": "이번 주 생산 계획 수치를 보여줘", "output": "SQL Query"}
+{"input": "설비 온도 데이터를 차트로 시각화해줘", "output": "Function Call"}
+{"input": "설비 문제 발생 시 해결 방법 알려줘", "output": "Rag Response"}
+{"input": "오늘도 힘내! 파이팅!", "output": "General Response"}
+{"input": "설비별 누적 사용 시간 데이터 확인해줘", "output": "SQL Query"}
+{"input": "AMR 전체 주행 거리 요약 데이터 보여줘", "output": "SQL Query"}
+{"input": "2분기 생산 계획 수치를 선형 차트로 보고 싶어", "output": "Function Call"}
+{"input": "설비 점검 기준과 절차가 어떻게 되는지 알려줘", "output": "Rag Response"}
+{"input": "내일 날씨 정보 좀 알려줘", "output": "General Response"}
+{"input": "8월 10일 18시 기준 설비 상태 조회해줘", "output": "SQL Query"}
+{"input": "AMR 4호 이동 기록 데이터를 보여줘", "output": "SQL Query"}
+{"input": "생산 실적 추세를 차트로 시각화해 보고 싶어", "output": "Function Call"}
+{"input": "설비 안전 점검 절차 간단히 설명해줘", "output": "Rag Response"}
+{"input": "감사합니다!", "output": "General Response"}
+{"input": "6월 기계별 운용 이력 데이터 조회해줘", "output": "SQL Query"}
+{"input": "AMR 6호의 실시간 배터리 상태 점검해줘", "output": "SQL Query"}
+{"input": "불량 발생 빈도 추세를 차트로 시각화해줘", "output": "Function Call"}
+{"input": "설비 이상 징후 발견 시 즉각적인 대응 방안 알려줘", "output": "Rag Response"}
+{"input": "안녕하세요, 오늘도 반갑습니다~", "output": "General Response"}
+{"input": "12월 전체 생산량 집계 데이터를 확인하고 싶어", "output": "SQL Query"}
+{"input": "AMR 3호 주행 기록 데이터를 시각화해서 보여줘", "output": "Function Call"}
+{"input": "설비별 에너지 소비 현황 조회 가능할까?", "output": "SQL Query"}
+{"input": "설비 점검을 위한 필수 체크리스트 공유해줄래?", "output": "Rag Response"}
+{"input": "이번 주 날씨 상태가 궁금해", "output": "General Response"}
+{"input": "정기 점검 일정은 어떻게 계획해야 하나?", "output": "Rag Response"}
+{"input": "AMR 1호의 실시간 위치 정보 확인 부탁해", "output": "Function Call"}
+{"input": "이번 분기 설비별 가동 기록을 조회해줘", "output": "SQL Query"}
+{"input": "월별 생산 계획 수량을 시각화해 줄 수 있을까?", "output": "Function Call"}
+{"input": "설비 고장 발생 시 연락할 담당자 알려줘", "output": "Rag Response"}
+{"input": "최근 설비 온도가 비정상적으로 높은 이유가 뭘까?", "output": "Rag Response"}
+{"input": "AMR 2호 배터리 잔량 현황을 최신 데이터로 보여줘", "output": "SQL Query"}
+{"input": "지난달 불량률 현황 수치 보여줄 수 있을까?", "output": "SQL Query"}
+{"input": "설비별 가동 시간 데이터를 차트로 시각화해줘", "output": "Function Call"}
+{"input": "AMR 8호의 위치 이력 데이터 확인할 수 있을까?", "output": "SQL Query"}
+{"input": "이번 주 생산 실적을 요약해서 알려줘", "output": "SQL Query"}
+{"input": "설비 온도 변화 추이 데이터 조회해줘", "output": "SQL Query"}
+{"input": "생산 계획의 추세를 그래프로 시각화하고 싶어", "output": "Function Call"}
+{"input": "설비 이상 발생 시 신속한 조치 방법 알려줘", "output": "Rag Response"}
+{"input": "AMR 4호의 배터리 잔량 현재 상태 알려줘", "output": "SQL Query"}
+{"input": "6월 5일 오후 3시 기준 기계 상태 데이터 보여줘", "output": "SQL Query"}
+{"input": "이번 분기 불량률 통계 수치 확인해줘", "output": "SQL Query"}
+{"input": "설비 점검 절차를 간단 명료하게 설명해줘", "output": "Rag Response"}
+{"input": "안녕~ 오늘 하루는 어땠어?", "output": "General Response"}
+{"input": "늘 감사해요~", "output": "General Response"}
+{"input": "AMR 전체 위치 관련 데이터 전부 보여줄 수 있을까?", "output": "SQL Query"}
+{"input": "설비별 생산 계획량을 차트로 만들어줘", "output": "Function Call"}
+{"input": "기계 고장 시 우선 처리해야 할 순서 알려줘", "output": "Rag Response"}
+{"input": "오늘 점심 메뉴 추천 부탁해", "output": "General Response"}
+{"input": "AMR 35호 주행 데이터를 차트로 시각화해줘", "output": "Function Call"}
+{"input": "6월 생산 계획 수치 현황 알려줘", "output": "SQL Query"}
+{"input": "설비별 에너지 소비량 통계 데이터를 보여줄래?", "output": "SQL Query"}
+{"input": "불량률 급증 시 효과적인 대처 방안 알려줘", "output": "Rag Response"}
+{"input": "좋은 하루 보내세요!", "output": "General Response"}
+{"input": "설비별 누적 사용 시간 데이터 조회해줘", "output": "SQL Query"}
+{"input": "AMR 6호의 현재 위치 데이터 보여줘", "output": "Function Call"}
+{"input": "생산 실적 데이터를 그래프로 확인할 수 있을까?", "output": "Function Call"}
+{"input": "설비 점검 기준과 절차를 정리해서 알려줘", "output": "Rag Response"}
+{"input": "오늘 날씨가 맑은지 알려줘", "output": "General Response"}
+{"input": "최근 7일간 설비별 고장 횟수를 막대그래프로 보여줘", "output": "Function Call"}
+{"input": "작업자별 평균 작업 시간을 파이 차트로 시각화해줘", "output": "Function Call"}
+{"input": "최근 한 달간 품질 불량률 추이를 라인 차트로 그려줘", "output": "Function Call"}
+{"input": "AMR별 이동 거리 히스토그램으로 시각화해줘", "output": "Function Call"}
+{"input": "설비 A의 하루 평균 가동 시간을 차트로 보여줘", "output": "Function Call"}
+{"input": "라인별 전력 사용량을 그래프로 시각화해줘", "output": "Function Call"}
+{"input": "공정별 납기 지연 건수를 월별로 시각화해줘", "output": "Function Call"}
+{"input": "최근 1주일간 라인별 생산량 추세 차트로 보여줘", "output": "Function Call"}
+{"input": "AMR 위치 데이터를 지도 기반으로 시각화해줘", "output": "Function Call"}
+{"input": "작업자별 생산성과 불량률을 비교하는 그래프를 보여줘", "output": "Function Call"}
+{"input": "시간대별 설비 가동률을 꺾은선 그래프로 표현해줘", "output": "Function Call"}
+{"input": "설비별 온도 변화 추이를 그래프로 나타내줘", "output": "Function Call"}
+{"input": "라인별 평균 사이클 타임을 비교하는 차트로 보여줘", "output": "Function Call"}
+{"input": "AMR 고장 빈도수를 바 차트로 시각화해줘", "output": "Function Call"}
+{"input": "이번 달 품질 검사 결과를 파이 차트로 요약해줘", "output": "Function Call"}
+{"input": "공정별 생산량 누적 그래프를 보여줘", "output": "Function Call"}
+{"input": "AMR 일일 가동률 히트맵을 보여줘", "output": "Function Call"}
+{"input": "주간 라인별 불량률 트렌드를 시각화해줘", "output": "Function Call"}
+{"input": "작업자별 교육 이수율을 그래프로 보여줘", "output": "Function Call"}
+{"input": "라인 B 월별 고장 건수를 시계열 차트로 표현해줘", "output": "Function Call"}
+{"input": "라인 C 가동률과 정지 시간을 비교해줘", "output": "Function Call"}
+{"input": "라인별 평균 처리 시간을 라인 그래프로 보여줘", "output": "Function Call"}
+{"input": "라인 A와 B의 생산량 비교 그래프를 그려줘", "output": "Function Call"}
+{"input": "월별 품질 트렌드를 선형 회귀선과 함께 시각화해줘", "output": "Function Call"}
+{"input": "설비 누적 가동 시간을 그래프로 표현해줘", "output": "Function Call"}
+{"input": "작업자별 고장 발생률을 그래프로 보여줘", "output": "Function Call"}
+{"input": "시간대별 AMR 배터리 사용량을 시각화해줘", "output": "Function Call"}
+{"input": "공정별 생산 효율을 비교하는 차트로 나타내줘", "output": "Function Call"}
+{"input": "최근 30일간 설비별 유지보수 시간을 그래프로 보여줘", "output": "Function Call"}
+{"input": "AMR 운영 효율을 시간대별로 분석한 그래프 만들어줘", "output": "Function Call"}
+{"input": "설비가 작동하지 않을 때 초기 점검 항목은 무엇인가요?", "output": "Rag Response"}
+{"input": "정기 점검 시 반드시 확인해야 할 항목을 알려줘", "output": "Rag Response"}
+{"input": "작업 중 경고음이 울릴 때 예상 가능한 문제는 무엇인가요?", "output": "Rag Response"}
+{"input": "설비 이상 진단을 위해 우선 확인해야 할 사항은?", "output": "Rag Response"}
+{"input": "고장 난 설비의 수동 리셋 방법을 알려줘", "output": "Rag Response"}
+{"input": "AMR 충전 문제 발생 시 대처 방법을 알려줘", "output": "Rag Response"}
+{"input": "작업자의 안전 보호 장비 착용 기준을 알려줘", "output": "Rag Response"}
+{"input": "공정 중지 시 취해야 할 조치는 무엇인가요?", "output": "Rag Response"}
+{"input": "설비 전원 이상 발생 시 매뉴얼 내용은 어떻게 되나요?", "output": "Rag Response"}
+{"input": "라인 재시작 전 점검해야 할 절차는 무엇인가요?", "output": "Rag Response"}
+{"input": "정전 후 시스템 복구 순서를 알려줘", "output": "Rag Response"}
+{"input": "작업자 교대 시 주의할 사항은 무엇인가요?", "output": "Rag Response"}
+{"input": "AMR 고장 시 점검해야 할 주요 항목은 무엇인가요?", "output": "Rag Response"}
+{"input": "배터리 수명 연장 방법이 있나요?", "output": "Rag Response"}
+{"input": "작업 중 누수 발생 시 즉시 조치해야 할 사항은 무엇인가요?", "output": "Rag Response"}
+{"input": "라인 청소 규정은 어떻게 되나요?", "output": "Rag Response"}
+{"input": "안전사고 발생 시 보고 절차를 알려줘", "output": "Rag Response"}
+{"input": "라인 속도 조절 기준이 있나요?", "output": "Rag Response"}
+{"input": "설비 정지 버튼은 언제 눌러야 하나요?", "output": "Rag Response"}
+{"input": "이상 진동 감지 시 필요한 조치는 무엇인가요?", "output": "Rag Response"}
+{"input": "기계 소음이 평소보다 크면 어떤 점검을 해야 하나요?", "output": "Rag Response"}
+{"input": "계측기 교정 주기를 알려줘", "output": "Rag Response"}
+{"input": "AMR 적재 용량 기준이 어떻게 되나요?", "output": "Rag Response"}
+{"input": "장비 오작동 시 관리자 호출 전 확인해야 할 사항은 무엇인가요?", "output": "Rag Response"}
+{"input": "라인 시작 전 장비 예열 시간 기준이 있나요?", "output": "Rag Response"}
+{"input": "작업 중 정전기 방지 조치는 어떤 것들이 있나요?", "output": "Rag Response"}
+{"input": "작업복 착용 시 주의사항을 알려줘", "output": "Rag Response"}
+{"input": "비상 상황 시 대피 경로는 어디인가요?", "output": "Rag Response"}
+{"input": "장비 청소 후 재가동 절차가 어떻게 되나요?", "output": "Rag Response"}
+{"input": "라인 점검은 하루에 몇 번 해야 하나요?", "output": "Rag Response"}
+{"input": "고마워", "output": "General Response"}
+{"input": "수고했어!", "output": "General Response"}
+{"input": "좋은 아침이야", "output": "General Response"}
+{"input": "잘 지내?", "output": "General Response"}
+{"input": "너 정말 똑똑하네", "output": "General Response"}
+{"input": "도움이 많이 됐어", "output": "General Response"}
+{"input": "정말 친절하네", "output": "General Response"}
+{"input": "오늘 날씨 좋지?", "output": "General Response"}
+{"input": "밥은 먹었어?", "output": "General Response"}
+{"input": "넌 어디서 왔어?", "output": "General Response"}
+{"input": "정말 대단하네", "output": "General Response"}
+{"input": "참 고마운 친구야", "output": "General Response"}
+{"input": "기분 좋아 보여", "output": "General Response"}
+{"input": "지금 뭐 하고 있어?", "output": "General Response"}
+{"input": "피곤하지 않아?", "output": "General Response"}
+{"input": "반가워", "output": "General Response"}
+{"input": "이름이 뭐야?", "output": "General Response"}
+{"input": "잘 자", "output": "General Response"}
+{"input": "즐거운 하루 보내", "output": "General Response"}
+{"input": "점심 맛있게 먹었어?", "output": "General Response"}
+{"input": "좋은 하루 되길 바래", "output": "General Response"}
+{"input": "이런 말 해줘서 고마워", "output": "General Response"}
+{"input": "와, 신기하다!", "output": "General Response"}
+{"input": "그럴 수도 있겠다", "output": "General Response"}
+{"input": "좋은 생각이야", "output": "General Response"}
+{"input": "그렇게 할게", "output": "General Response"}
+{"input": "천재야 너", "output": "General Response"}
+{"input": "간단하게 설명해줘서 좋아", "output": "General Response"}
+{"input": "또 물어봐도 돼?", "output": "General Response"}
+{"input": "그건 몰랐네", "output": "General Response"}
+{"input": "정확하게 알려줘서 고마워", "output": "General Response"}
+{"input": "오늘도 힘내자!", "output": "General Response"}
+{"input": "이야기 나눠서 즐거웠어", "output": "General Response"}
+{"input": "다음에 또 물어볼게", "output": "General Response"}
+{"input": "정말 똑부러진다", "output": "General Response"}
+{"input": "귀엽네", "output": "General Response"}
+{"input": "오늘은 기분 좋아", "output": "General Response"}
+{"input": "쉬는 시간엔 뭐해?", "output": "General Response"}
+{"input": "말 예쁘게 하네", "output": "General Response"}
+{"input": "좋은 정보 고마워", "output": "General Response"}
+{"input": "답변이 마음에 들어", "output": "General Response"}
+{"input": "이런 질문도 받아줘서 고마워", "output": "General Response"}
+{"input": "오늘은 무슨 요일이야?", "output": "General Response"}
+{"input": "새로운 걸 알게 됐어", "output": "General Response"}
+{"input": "지금도 배워가는 중이야", "output": "General Response"}
+{"input": "계속 응원할게", "output": "General Response"}
+{"input":"이정도면 충분해","output":"General Response"}
+{"input":"이만하면 괜찮아","output":"General Response"}
+{"input":"충분히 훌륭해","output":"General Response"}
+{"input":"더 이상 필요없어","output":"General Response"}
+{"input":"잠깐 쉬었다올게","output":"General Response"}
+{"input":"조금 휴식갖고올게","output":"General Response"}
+{"input":"잠시쉬고올게","output":"General Response"}
+{"input":"곧다시돌아올게","output":"General Response"}
+{"input":"다시대화하자","output":"General Response"}
+{"input":"나중에다시얘기하자","output":"General Response"}
+{"input":"다시만나서얘기하자","output":"General Response"}
+{"input":"편할때연락줘","output":"General Response"}
+{"input":"네가있으니든든해","output":"General Response"}
+{"input":"네덕분에마음편해","output":"General Response"}
+{"input":"곁에있어힘이나","output":"General Response"}
+{"input":"네가있어 마음놓여","output":"General Response"}
+{"input":"지금멋져보여","output":"General Response"}
+{"input":"너무멋져서 감탄나","output":"General Response"}
+{"input":"정말멋지게보여","output":"General Response"}
+{"input":"지금모습최고야","output":"General Response"}
+{"input":"또만날수있을까","output":"General Response"}
+{"input":"다시 만나고싶어","output":"General Response"}
+{"input":"곧만나자기다릴게","output":"General Response"}
+{"input":"언제든만나고파","output":"General Response"}
+{"input":"잠깐기다려줘","output":"General Response"}
+{"input":"조금만기다려줘","output":"General Response"}
+{"input":"곧다시올게","output":"General Response"}
+{"input":"잠시기다려줄래","output":"General Response"}
+{"input":"지금얘기해도돼","output":"General Response"}
+{"input":"이때대화가능해","output":"General Response"}
+{"input":"지금말해도괜찮아","output":"General Response"}
+{"input":"지금통화해도돼","output":"General Response"}
+{"input":"그얘기더해줘","output":"General Response"}
+{"input":"계속말해줘","output":"General Response"}
+{"input":"그부분자세히말해줘","output":"General Response"}
+{"input":"더 설명해줘","output":"General Response"}
+{"input":"기분 울적해","output":"General Response"}
+{"input":"마음이 우울해","output":"General Response"}
+{"input":"오늘 마음 무거워","output":"General Response"}
+{"input":"기분가라앉아있어","output":"General Response"}
+{"input":"힘나는말한마디해줘","output":"General Response"}
+{"input":"응원말해줘","output":"General Response"}
+{"input":"힘낼수있게말해줘","output":"General Response"}
+{"input":"기운주는말해줘","output":"General Response"}
+{"input":"너랑얘기하면재밌어","output":"General Response"}
+{"input":"대화가 즐거워","output":"General Response"}
+{"input":"너랑말하면 기분좋아","output":"General Response"}
+{"input":"너랑있는 시간좋아","output":"General Response"}
+{"input": "24년 4월 생산량 알려줘", "output": "SQL Query"}
+{"input": "AMR 1호 배터리 상태 조회해줘", "output": "SQL Query"}
+{"input": "기계별 불량률 그래프로 보여줘", "output": "Function Call"}
+{"input": "공장 안전 관리 절차 알려줘", "output": "Rag Response"}
+{"input": "오늘 점심 뭐 먹을까?", "output": "General Response"}
+{"input": "5월 10일 생산량 차트로 보여줘", "output": "Function Call"}
+{"input": "기계 고장 시 대처 방법은?", "output": "Rag Response"}
+{"input": "지난 달 생산량 통계 알려줘", "output": "SQL Query"}
+{"input": "안녕!", "output": "General Response"}
+{"input": "AMR 2호 위치 히스토리 조회해줘", "output": "SQL Query"}
+{"input": "기계별 주간 가동 시간 알려줘", "output": "SQL Query"}
+{"input": "월별 생산량 라인 그래프 그려줘", "output": "Function Call"}
+{"input": "불량 발생 원인 분석해줘", "output": "Rag Response"}
+{"input": "수고했어!", "output": "General Response"}
+{"input": "AMR 3호 지금 위치 알려줘", "output": "Function Call"}
+{"input": "기계 온도 변화 통계 알려줘", "output": "SQL Query"}
+{"input": "생산성 높이려면 어떻게 해야 해?", "output": "Rag Response"}
+{"input": "기계 가동 내역 막대 그래프로 보여줘", "output": "Function Call"}
+{"input": "오늘 날씨 어때?", "output": "General Response"}
+{"input": "1분기 생산량 최대값 알려줘", "output": "SQL Query"}
+{"input": "월별 불량률 변화 시각화해줘", "output": "Function Call"}
+{"input": "기계 정비 주기 알려줘", "output": "Rag Response"}
+{"input": "고마워", "output": "General Response"}
+{"input": "AMR 4호 주행 거리 알려줘", "output": "SQL Query"}
+{"input": "생산량 증감 추이 차트로 보여줘", "output": "Function Call"}
+{"input": "기계 이상 발생 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "오늘 하루 어땠어?", "output": "General Response"}
+{"input": "주간 생산량 합계 알려줘", "output": "SQL Query"}
+{"input": "기계별 평균 온도 그래프로 보여줘", "output": "Function Call"}
+{"input": "AMR 1호 위치 히스토리 조회해줘", "output": "SQL Query"}
+{"input": "불량률 줄이려면 어떻게 해야 해?", "output": "Rag Response"}
+{"input": "점심 뭐 먹을지 추천해줘", "output": "General Response"}
+{"input": "기계 가동률 합계 알려줘", "output": "SQL Query"}
+{"input": "AMR 2호 이동 거리 시각화해줘", "output": "Function Call"}
+{"input": "기계 문제 발생 시 대처 방법은?", "output": "Rag Response"}
+{"input": "잘 자", "output": "General Response"}
+{"input": "주간 불량률 통계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 변화 차트로 보여줘", "output": "Function Call"}
+{"input": "공장 에너지 절약 방법 알려줘", "output": "Rag Response"}
+{"input": "안녕하세요", "output": "General Response"}
+{"input": "기계별 월간 가동 시간 조회해줘", "output": "SQL Query"}
+{"input": "5월 생산량 라인 그래프 그려줘", "output": "Function Call"}
+{"input": "기계 문제 발생 시 대처법은?", "output": "Rag Response"}
+{"input": "오늘 기분 어때?", "output": "General Response"}
+{"input": "일별 생산량 합계 알려줘", "output": "SQL Query"}
+{"input": "기계 가동률 변화 차트로 보여줘", "output": "Function Call"}
+{"input": "AMR 정비 주기 어떻게 되나요?", "output": "Rag Response"}
+{"input": "기계별 불량률 조회해줘", "output": "SQL Query"}
+{"input": "생산량 트렌드 차트로 보여줘", "output": "Function Call"}
+{"input": "기계 고장 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "감사합니다", "output": "General Response"}
+{"input": "5월 3일 생산량 알려줘", "output": "SQL Query"}
+{"input": "기계별 불량률 트렌드 그래프로 보여줘", "output": "Function Call"}
+{"input": "AMR 배터리 관리 방법은?", "output": "Rag Response"}
+{"input": "잘자요", "output": "General Response"}
+{"input": "기계 가동 내역 조회해줘", "output": "SQL Query"}
+{"input": "주간 생산량 추이 시각화해줘", "output": "Function Call"}
+{"input": "기계 문제 발생 시 대응 방법 알려줘", "output": "Rag Response"}
+{"input": "일별 불량률 합계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 분포 차트로 보여줘", "output": "Function Call"}
+{"input": "공장 안전 규정 자세히 알려줘", "output": "Rag Response"}
+{"input": "AMR 4호 위치 히스토리 알려줘", "output": "SQL Query"}
+{"input": "월별 생산량 그래프로 보여줘", "output": "Function Call"}
+{"input": "기계 고장 대처법 알려줘", "output": "Rag Response"}
+{"input": "고마워요", "output": "General Response"}
+{"input": "주간 생산량 조회해줘", "output": "SQL Query"}
+{"input": "불량률 변화 시각화해줘", "output": "Function Call"}
+{"input": "기계 정비 방법 알려줘", "output": "Rag Response"}
+{"input": "AMR 1호 주행 거리 조회해줘", "output": "SQL Query"}
+{"input": "월간 생산량 트렌드 그래프로 보여줘", "output": "Function Call"}
+{"input": "기계 문제 시 대처법은?", "output": "Rag Response"}
+{"input": "24년 5월 생산량 알려줘", "output": "SQL Query"}
+{"input": "기계별 가동 시간 차트로 보여줘", "output": "Function Call"}
+{"input": "생산성 향상 방법 알려줘", "output": "Rag Response"}
+{"input": "좋은 하루 보내", "output": "General Response"}
+{"input": "AMR 5호 배터리 상태 조회해줘", "output": "SQL Query"}
+{"input": "5월 생산량 선 그래프 그려줘", "output": "Function Call"}
+{"input": "기계 문제 대처법 알려줘", "output": "Rag Response"}
+{"input": "주간 불량률 합계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 분포 시각화해줘", "output": "Function Call"}
+{"input": "공장 안전 수칙 알려줘", "output": "Rag Response"}
+{"input": "AMR 2호 위치 조회해줘", "output": "SQL Query"}
+{"input": "월별 생산량 막대 그래프로 보여줘", "output": "Function Call"}
+{"input": "불량률 줄이는 방법 알려줘", "output": "Rag Response"}
+{"input": "이번 달 생산 현황 알려줘", "output": "SQL Query"}
+{"input": "기계별 고장률 차트 그려줘", "output": "Function Call"}
+{"input": "AMR 1호 오늘 주행 거리 확인해줘", "output": "SQL Query"}
+{"input": "불량률 감소 방법 좀 알려줘", "output": "Rag Response"}
+{"input": "5월 15일 생산량 데이터 보여줘", "output": "SQL Query"}
+{"input": "월별 불량률 시각화 부탁해", "output": "Function Call"}
+{"input": "기계 이상 발생 시 대처법 추천해줘", "output": "Rag Response"}
+{"input": "AMR 3호 배터리 상태 최근 기록 알려줘", "output": "SQL Query"}
+{"input": "생산량 추이 그래프로 표현해줘", "output": "Function Call"}
+{"input": "기계별 사용 시간 데이터 조회해줘", "output": "SQL Query"}
+{"input": "공장 운영 매뉴얼 알려줘", "output": "Rag Response"}
+{"input": "잘자, 내일 봐", "output": "General Response"}
+{"input": "지난달 생산량 통계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 분포 그래프 요청", "output": "Function Call"}
+{"input": "기계 고장시 기본 점검 절차 알려줘", "output": "Rag Response"}
+{"input": "안녕, 오늘도 수고했어", "output": "General Response"}
+{"input": "월별 생산량 선 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "불량률 개선할 방법 제안해줘", "output": "Rag Response"}
+{"input": "5월 한 달 생산량 수치 알려줘", "output": "SQL Query"}
+{"input": "주간 불량률 시각화해줘", "output": "Function Call"}
+{"input": "기계 정기 점검 기준 알려줘", "output": "Rag Response"}
+{"input": "AMR 1호 주행 거리 기록 알려줘", "output": "SQL Query"}
+{"input": "생산량 막대 그래프 부탁해", "output": "Function Call"}
+{"input": "기계 이상 발생 시 대처법 알려줘", "output": "Rag Response"}
+{"input": "월별 생산량 통계 조회해줘", "output": "SQL Query"}
+{"input": "생산량 변동 차트 그려줘", "output": "Function Call"}
+{"input": "기계 문제 해결 방법 알려줘", "output": "Rag Response"}
+{"input": "일별 불량률 데이터 알려줘", "output": "SQL Query"}
+{"input": "기계 온도 변화 그래프로 보여줘", "output": "Function Call"}
+{"input": "공장 운영 매뉴얼 알려줘", "output": "Rag Response"}
+{"input": "AMR 4호 위치 기록 확인해줘", "output": "SQL Query"}
+{"input": "월간 생산량 차트로 보고 싶어", "output": "Function Call"}
+{"input": "불량률 줄이는 팁 알려줘", "output": "Rag Response"}
+{"input": "주간 생산량 합계 알려줘", "output": "SQL Query"}
+{"input": "생산량 변화 시각화해줘", "output": "Function Call"}
+{"input": "기계 점검 주기 알려줘", "output": "Rag Response"}
+{"input": "AMR 5호 배터리 상태 최근 조회", "output": "SQL Query"}
+{"input": "월별 생산량 라인 그래프 보고 싶어", "output": "Function Call"}
+{"input": "24년 3월 생산량 데이터 알려줘", "output": "SQL Query"}
+{"input": "기계별 가동 시간 차트 요청", "output": "Function Call"}
+{"input": "생산성 향상 위한 팁 알려줘", "output": "Rag Response"}
+{"input": "AMR 3호 주행 거리 알려줘", "output": "SQL Query"}
+{"input": "기계 고장 시 해결책 알려줘", "output": "Rag Response"}
+{"input": "주간 불량률 통계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 분포 시각화 요청", "output": "Function Call"}
+{"input": "공장 안전 지침 알려줘", "output": "Rag Response"}
+{"input": "AMR 2호 위치 데이터 조회해줘", "output": "SQL Query"}
+{"input": "월별 생산량 막대 그래프로 보여줘", "output": "Function Call"}
+{"input": "불량률 줄이는 방법 알려줘", "output": "Rag Response"}
+{"input": "이번 달 생산 현황 알려줘", "output": "SQL Query"}
+{"input": "기계별 고장률 차트 그려줘", "output": "Function Call"}
+{"input": "AMR 1호 오늘 주행 거리 확인해줘", "output": "SQL Query"}
+{"input": "불량률 감소 방법 좀 알려줘", "output": "Rag Response"}
+{"input": "5월 15일 생산량 데이터 보여줘", "output": "SQL Query"}
+{"input": "월별 불량률 시각화 부탁해", "output": "Function Call"}
+{"input": "기계 이상 발생 시 대처법 추천해줘", "output": "Rag Response"}
+{"input": "AMR 3호 배터리 상태 최근 기록 알려줘", "output": "SQL Query"}
+{"input": "생산량 추이 그래프로 표현해줘", "output": "Function Call"}
+{"input": "기계별 사용 시간 데이터 조회해줘", "output": "SQL Query"}
+{"input": "공장 운영 매뉴얼 알려줘", "output": "Rag Response"}
+{"input": "지난달 생산량 통계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 분포 그래프 요청", "output": "Function Call"}
+{"input": "기계 고장시 기본 점검 절차 알려줘", "output": "Rag Response"}
+{"input": "월별 생산량 선 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "불량률 개선할 방법 제안해줘", "output": "Rag Response"}
+{"input": "5월 한 달 생산량 수치 알려줘", "output": "SQL Query"}
+{"input": "주간 불량률 시각화해줘", "output": "Function Call"}
+{"input": "기계 정기 점검 기준 알려줘", "output": "Rag Response"}
+{"input": "AMR 1호 주행 거리 기록 알려줘", "output": "SQL Query"}
+{"input": "이번달 기계별 생산량 수치좀 알려줘", "output": "SQL Query"}
+{"input": "5월10일 9시 기계 가동현황 조회해줘ㅠㅠ", "output": "SQL Query"}
+{"input": "월간 불량률 추이 그래프로 보여줄래?", "output": "Function Call"}
+{"input": "AMR 2호 배터리 얼마 남았어?", "output": "SQL Query"}
+{"input": "기계 고장났을때 어떻게 해야되?", "output": "Rag Response"}
+{"input": "내일 점심 뭐 먹지?", "output": "General Response"}
+{"input": "AMR7호 지금 위치 좀 알려줘", "output": "Function Call"}
+{"input": "최근 세달 생산량 통계 좀 조회해줘", "output": "SQL Query"}
+{"input": "생산성 높이는 방법 추천좀 해줘", "output": "Rag Response"}
+{"input": "기계별 온도변화 그래프로 그려줘", "output": "Function Call"}
+{"input": "지난주 불량품 몇 개였는지 알려줘", "output": "SQL Query"}
+{"input": "오늘 날씨 어때? 궁금해", "output": "General Response"}
+{"input": "AMR 5호 주행거리 데이터 보여줄수있어?", "output": "SQL Query"}
+{"input": "기계 점검 절차 자세히 알려줄래?", "output": "Rag Response"}
+{"input": "최근 1년간 생산량 변동 그래프 그려줄래?", "output": "Function Call"}
+{"input": "수고했어~~", "output": "General Response"}
+{"input": "5월 1일부터 15일까지 불량률 조회해줄수있어?", "output": "SQL Query"}
+{"input": "AMR 3호 위치 기록 조회좀 해줘", "output": "SQL Query"}
+{"input": "기계별 에너지 사용량 선그래프로 보여줘", "output": "Function Call"}
+{"input": "생산설비 안전수칙 알려줄래?", "output": "Rag Response"}
+{"input": "24년 3월 생산량 알수있을까?", "output": "SQL Query"}
+{"input": "AMR1호 배터리 상태 지금 알려줘", "output": "SQL Query"}
+{"input": "기계별 불량률 파이차트로 표현해줘", "output": "Function Call"}
+{"input": "불량률 왜 이렇게 높지? 원인 좀 알려줘", "output": "Rag Response"}
+{"input": "점심 뭐 먹지 고민중", "output": "General Response"}
+{"input": "AMR3호 위치 지금 알려줘", "output": "Function Call"}
+{"input": "이번주 생산량 수치 조회해줘", "output": "SQL Query"}
+{"input": "기계 온도 그래프 그려줘", "output": "Function Call"}
+{"input": "생산설비 문제 생기면 어떻게 해결해?", "output": "Rag Response"}
+{"input": "좋은 하루 보내", "output": "General Response"}
+{"input": "기계별 사용 시간 알려줘", "output": "SQL Query"}
+{"input": "AMR 주행거리 데이터 보여줘", "output": "SQL Query"}
+{"input": "1분기 생산량 선그래프로 보고 싶어", "output": "Function Call"}
+{"input": "기계 점검 기준 알려줄래?", "output": "Rag Response"}
+{"input": "내일 날씨 어때?", "output": "General Response"}
+{"input": "5월 15일 18시 기계 상태 조회해줘", "output": "SQL Query"}
+{"input": "AMR 4호 위치 기록 보여줘", "output": "SQL Query"}
+{"input": "생산량 추이 그래프 그려줘", "output": "Function Call"}
+{"input": "기계 안전 점검 방법 알려줘", "output": "Rag Response"}
+{"input": "감사합니다!", "output": "General Response"}
+{"input": "5월 기계 사용 내역 알려줘", "output": "SQL Query"}
+{"input": "AMR 6호 배터리 상태 보여줘", "output": "SQL Query"}
+{"input": "불량률 추이 차트로 보고 싶어", "output": "Function Call"}
+{"input": "기계 이상 생기면 대처법 알려줘", "output": "Rag Response"}
+{"input": "안녕~", "output": "General Response"}
+{"input": "5월달 생산량 알려줘", "output": "SQL Query"}
+{"input": "AMR 3호 주행거리 그래프로 보여줘", "output": "Function Call"}
+{"input": "기계별 에너지 사용량 알려줘", "output": "SQL Query"}
+{"input": "설비 점검 절차 알려줄래?", "output": "Rag Response"}
+{"input": "오늘 날씨 어때?", "output": "General Response"}
+{"input": "기계 점검 언제 해야돼?", "output": "Rag Response"}
+{"input": "AMR 1호의 위치 알려줘", "output": "Function Call"}
+{"input": "이번달 기계 사용 기록 조회해줘", "output": "SQL Query"}
+{"input": "월별 생산량 그래프 그려줘", "output": "Function Call"}
+{"input": "기계 고장나면 누굴 불러?", "output": "Rag Response"}
+{"input": "요즘 기계 온도 너무 높은데 왜그럴까?", "output": "Rag Response"}
+{"input": "AMR 2호 배터리 상태 확인해줘", "output": "SQL Query"}
+{"input": "지난달 불량률 수치 알려줘", "output": "SQL Query"}
+{"input": "기계별 가동시간 차트로 보고싶어", "output": "Function Call"}
+{"input": "AMR 3호 위치 기록 보여줘", "output": "SQL Query"}
+{"input": "이번 주 생산량 통계 알려줘", "output": "SQL Query"}
+{"input": "기계별 온도 변화 데이터 조회해줘", "output": "SQL Query"}
+{"input": "생산량 추이 그래프로 보고싶어", "output": "Function Call"}
+{"input": "기계 이상 발생시 대처법 알려줘", "output": "Rag Response"}
+{"input": "AMR 4호 배터리 잔량 확인해줘", "output": "SQL Query"}
+{"input": "5월 10일 18시 기계 상태 조회해줘", "output": "SQL Query"}
+{"input": "이번 달 불량률 알려줘", "output": "SQL Query"}
+{"input": "기계 점검 방법 좀 알려줘", "output": "Rag Response"}
+{"input": "안녕, 오늘 어때?", "output": "General Response"}
+{"input": "감사합니다~", "output": "General Response"}
+{"input": "AMR 위치 데이터 보여줘", "output": "SQL Query"}
+{"input": "기계별 생산량 차트 만들어줘", "output": "Function Call"}
+{"input": "기계 고장났을때 처리 방법 알려줘", "output": "Rag Response"}
+{"input": "오늘 점심 뭐 먹지?", "output": "General Response"}
+{"input": "AMR 5호 주행거리 그래프로 그려줘", "output": "Function Call"}
+{"input": "월간 생산량 수치 알려줘", "output": "SQL Query"}
+{"input": "기계 에너지 사용량 통계 조회해줘", "output": "SQL Query"}
+{"input": "불량률이 높으면 어떻게 해야 돼?", "output": "Rag Response"}
+{"input": "좋은 하루 보내세요", "output": "General Response"}
+{"input": "기계별 사용 시간 데이터 보여줘", "output": "SQL Query"}
+{"input": "AMR 6호 위치 지금 알려줘", "output": "Function Call"}
+{"input": "생산량 그래프로 보고싶어", "output": "Function Call"}
+{"input": "기계 점검 기준 좀 알려줘", "output": "Rag Response"}
+{"input": "날씨가 좋네", "output": "General Response"}
+{"input": "2024년 4월 1일부터 30일까지 계획량 궁금해", "output": "SQL Query"}
+{"input": "AMR 1호 온도 몇이야?", "output": "SQL Query"}
+{"input": "작년 계획량 월별 그래프 보여줘", "output": "Function Call"}
+{"input": "기계 관리 절차 뭐야", "output": "Rag Response"}
+{"input": "너 잘생겼냐?", "output": "General Response"}
+{"input": "24년 하반기와 25년 상반기 생산량 차트로 보여줘", "output": "Function Call"}
+{"input": "데이터 저장 이상 시 어떻게 해야해?", "output": "Rag Response"}
+{"input": "작년 생산량이랑 계획량 정리해줘", "output": "SQL Query"}
+{"input": "헬로", "output": "General Response"}
+{"input": "AMR 오늘 위치 내역 알려줘", "output": "SQL Query"}
+{"input": "오늘 1번 기기 가동 시간 얼마나 돼", "output": "SQL Query"}
+{"input": "올해 생산량 월별 그래프 줘봐", "output": "Function Call"}
+{"input": "이번달 불량 발생이 많은 이유 분석해줘", "output": "Rag Response"}
+{"input": "수고요", "output": "General Response"}
+{"input": "AMR 14호 현재 위치 어디야?", "output": "Function Call"}
+{"input": "올해 1분기 공장 습도 변화 내역 보여줘", "output": "SQL Query"}
+{"input": "생산량이 너무 저조한데 뭐가 문제야?", "output": "Rag Response"}
+{"input": "작년 2분기, 3분기 생산량 바 그래프 그려줘", "output": "Function Call"}
+{"input": "휴가 가고싶다.", "output": "General Response"}
+{"input": "25년 5월에 계획량 가장 작은 날이 언제야?", "output": "SQL Query"}
+{"input": "이번달 생산량, 계획량 차이 그려줘", "output": "Function Call"}
+{"input": "기기 정비 또 언제 해야지?", "output": "Rag Response"}
+{"input": "쌩큐", "output": "General Response"}
+{"input": "작년 하반기 AMR 22호 주행 거리 몇이야?", "output": "SQL Query"}
+{"input": "올해 생산량 증감 추이 차트로 그려주세요", "output": "Function Call"}
+{"input": "화재 발생 시 대처법 메뉴얼", "output": "Rag Response"}
+{"input": "오늘 고생 많았다", "output": "General Response"}
+{"input": "오늘까지 생산량 합계 일리져", "output": "SQL Query"}
+{"input": "작년 5번 기계 월별 평균 온도 그래프로 주어줘", "output": "Function Call"}
+{"input": "AMR 11호 가동 내역 얼마나 되나", "output": "SQL Query"}
+{"input": "직원 사기 올릴려면 뭐가 좋나?", "output": "Rag Response"}
+{"input": "주말에 뭐 할지 추천 좀", "output": "General Response"}
+{"input": "오늘 기계 가동률 합 얼마임?", "output": "SQL Query"}
+{"input": "작년 AMR 7호 월간 이동 거리 시각화해서 보여줘", "output": "Function Call"}
+{"input": "4번 기계 경고등 떴는데 원인이 뭘야?", "output": "Rag Response"}
+{"input": "주말에 어디 갈까?", "output": "General Response"}
+{"input": "월간 계획량 합계 어느 정도지?", "output": "SQL Query"}
+{"input": "올해 여름 4번 기기 온도 변화 그래프로 줘", "output": "Function Call"}
+{"input": "에너지 절약 방법 팁 좀", "output": "Rag Response"}
+{"input": "하이요!", "output": "General Response"}
+{"input": "4번 기계 이번 달 가동 몇시간함?", "output": "SQL Query"}
+{"input": "25년 3월 생산량 선 그래프 그려쥬", "output": "Function Call"}
+{"input": "정전 시 대처법 알아?", "output": "Rag Response"}
+{"input": "어햄먄뤄지?", "output": "General Response"}
+{"input": "이번달 일일생산량 알려줘", "output": "SQL Query"}
+{"input": "이번 상반기 기계 가동률 그래프", "output": "Function Call"}
+{"input": "AMR 배터리는 어떻게 해?", "output": "Rag Response"}
+{"input": "기계별 생신량 조회", "output": "SQL Query"}
+{"input": "작년 생산트렌드 차트로 주세요", "output": "Function Call"}
+{"input": "기계 이상 시 어째야해", "output": "Rag Response"}
+{"input": "고오ㅂ맙습니다", "output": "General Response"}
+{"input": "11월 28일 생산량 조회", "output": "SQL Query"}
+{"input": "기계별 생산량 변화 선그래프로 보여", "output": "Function Call"}
+{"input": "AMR 이상 전조?", "output": "Rag Response"}
+{"input": "잘해라", "output": "General Response"}
+{"input": "올해 기계 가동한 날 조회", "output": "SQL Query"}
+{"input": "상반기 주간 생산량 추이 그려주ㅝ", "output": "Function Call"}
+{"input": "기계 경고등 점멸시 대처 알려주세오", "output": "Rag Response"}
+{"input": "올해 계획량 합 궁금해", "output": "SQL Query"}
+{"input": "엊ㅔ 기계별 온도 그래프 그려주어", "output": "Function Call"}
+{"input": "공장 안전 규정 찾아줘", "output": "Rag Response"}
+{"input": "6번 위치 알려줘", "output": "SQL Query"}
+{"input": "작년도 월별 생산량 그래프", "output": "Function Call"}
+{"input": "amr 고장났어", "output": "Rag Response"}
+{"input": "굳", "output": "General Response"}
+{"input": "이번주 생산 계획 얼마니", "output": "SQL Query"}
+{"input": "생신량 그려주시어", "output": "Function Call"}
+{"input": "기계 정비법 궁금한데", "output": "Rag Response"}
+{"input": "8번 amr 이번주 주행 거리 몇이야", "output": "SQL Query"}
+{"input": "25녀 2분기 계획량 월별로 그래프로 그려", "output": "Function Call"}
+{"input": "amr 이상 행동할때 어떻게 해야해?", "output": "Rag Response"}
+{"input": "2025년 5월,6월,9월 생산량 알려줘", "output": "SQL Query"}
+{"input": "17번 가동 시간 그래프화해", "output": "Function Call"}
+{"input": "생산성 증진 효율성 증대 방법 팁 있나", "output": "Rag Response"}
+{"input": "나쁜 일 없어리", "output": "General Response"}
+{"input": "AMR 12 배터리 얼마남음?", "output": "SQL Query"}
+{"input": "올해 9월 계획량 막대그래프", "output": "Function Call"}
+{"input": "amr 메뉴얼 궁금해", "output": "Rag Response"}
+{"input": "월간 불량 갯수 총합 얼마임?", "output": "SQL Query"}
+{"input": "상반기 6번 기계 온도 변화 시각화", "output": "Function Call"}
+{"input": "설비 안전 수칙 뭐가 있지", "output": "Rag Response"}
+{"input": "지금 amr들 다 어디 있어?", "output": "SQL Query"}
+{"input": "올해 월별 생산계획 그래프로 ", "output": "Function Call"}
+{"input": "불량 줄이는 팁이나", "output": "Rag Response"}
+{"input": "올해 생산 현황", "output": "SQL Query"}
+{"input": "기계별 고장 빈도 차트화해서 주세요", "output": "Function Call"}
+{"input": "AMR 9호 오늘 총 주행량 얼마야", "output": "SQL Query"}
+{"input": "효율성 증대 비법있어?", "output": "Rag Response"}
+{"input": "10월 25일 생산량 내역 조회해줘", "output": "SQL Query"}
+{"input": "작년 월별 생산량 시각화 부탁해", "output": "Function Call"}
+{"input": "amr 배터리 이상이면 어떻게해ㅑ", "output": "Rag Response"}
+{"input": "AMR 13호 최근 배터리 추이 어떻게 되지", "output": "SQL Query"}
+{"input": "이번달 생산량 변화 선 그래프 표현해줘", "output": "Function Call"}
+{"input": "오늘 기계별 동작시간 조회해", "output": "SQL Query"}
+{"input": "4번 기기 모델 매뉴얼 궁금한데", "output": "Rag Response"}
+{"input": "퇴근한다 내일 봐", "output": "General Response"}
+{"input": "지난주 생산량 합계 몇임?", "output": "SQL Query"}
+{"input": "1,2분기 생산량 월별 그래프 요청", "output": "Function Call"}
+{"input": "기본 점검 방법 나온거 잇어?", "output": "Rag Response"}
+{"input": "오늘도 수고했습니다", "output": "General Response"}
+{"input": "3분기 걔획량 선그래프로 보고 싶어", "output": "Function Call"}
+{"input": "지난 주 생산량이 계획량 못 따라잡은 이유 개선할 방법 제안해줘", "output": "SQL Query"}
+{"input": "3월 한 달동안 생산량 값 뭐야", "output": "SQL Query"}
+{"input": "이번 달 주별로 불량량 시각화해줘", "output": "Function Call"}
+{"input": "기계 점검 기준 뭐야", "output": "Rag Response"}
+{"input": "amr 28호 주행거리 얼마 정도야", "output": "SQL Query"}
+{"input": "계획량 바그래프 부탁이요", "output": "Function Call"}
+{"input": "설비 이상현상 전조 시 대처법 궁금", "output": "Rag Response"}
+{"input": "올해 월별 계획량 합계 조회해줘", "output": "SQL Query"}
+{"input": "생산량 변동 파이그래프 그려줘", "output": "Function Call"}
+{"input": "기계 고장 해결법 뭐해야해", "output": "Rag Response"}
+{"input": "이번 달 일일 불량 발생 데이터 조회 좀", "output": "SQL Query"}
+{"input": "작년 하반기 기계 온도 변화 그래프화 해서 보여줘", "output": "Function Call"}
+{"input": "설비 정보 알려줘", "output": "Rag Response"}
+{"input": "AMR 6호 현재 위치 좀 보여줄래?", "output": "SQL Query"}
+{"input": "3분기 계획수량을 그래프로 확인하고 싶어", "output": "Function Call"}
+{"input": "불량 발생 줄일 수 있는 팁 있을까?", "output": "Rag Response"}
+{"input": "이번 주 생산 실적 합계 알려줘", "output": "SQL Query"}
+{"input": "생산 계획 변화 시각적으로 보고 싶어", "output": "Function Call"}
+{"input": "설비 점검은 주기로 하면 돼?", "output": "Rag Response"}
+{"input": "AMR 7호 배터리 잔량 최근 데이터 보여줘", "output": "SQL Query"}
+{"input": "라인별 6월 생산량 막대 차트로 보여줄 수 있어?", "output": "Function Call"}
+{"input": "2025년 5월 생산 계획 수치 알려줘", "output": "SQL Query"}
+{"input": "설비별 운전 시간 비교해줘, 그래프로", "output": "Function Call"}
+{"input": "작업 효율 높이려면 어떻게 해야 할까?", "output": "Rag Response"}
+{"input": "AMR 2호가 주행한 거리 데이터 줘", "output": "SQL Query"}
+{"input": "설비 문제 생기면 대응 절차 어떻게 돼?", "output": "Rag Response"}
+{"input": "이번 주 불량 수치 통계 보여줘", "output": "SQL Query"}
+{"input": "설비 온도 변화 그래프 부탁해", "output": "Function Call"}
+{"input": "현장 안전관리 지침 좀 설명해줘", "output": "Rag Response"}
+{"input": "AMR 5호 위치 정보 좀 확인해줘", "output": "SQL Query"}
+{"input": "월별 계획 수량 선 그래프로 확인할 수 있어?", "output": "Function Call"}
+{"input": "불량률 낮추는 방법 좀 제안해줄래?", "output": "Rag Response"}
+{"input": "하반기 생산 현황 요약해서 알려줘", "output": "SQL Query"}
+{"input": "설비 고장률 비교 차트로 보여줘", "output": "Function Call"}
+{"input": "AMR 1호 오늘 주행한 거리 얼마야?", "output": "SQL Query"}
+{"input": "불량률 낮추는 실질적인 방법 뭐가 있어?", "output": "Rag Response"}
+{"input": "5월 22일 생산 실적 데이터 확인해줘", "output": "SQL Query"}
+{"input": "월별 불량 발생률 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "설비 이상 생기면 어떻게 대응해?", "output": "Rag Response"}
+{"input": "AMR 3호 최근 배터리 상태 보여줘", "output": "SQL Query"}
+{"input": "생산 실적 추세 그래프 생성해줘", "output": "Function Call"}
+{"input": "설비별 누적 사용 시간 조회할 수 있어?", "output": "SQL Query"}
+{"input": "공장 운영 기준 매뉴얼 알려줘", "output": "Rag Response"}
+{"input": "6월 전체 생산 수량 집계해줘", "output": "SQL Query"}
+{"input": "설비별 온도 차이 시각화해서 보여줘", "output": "Function Call"}
+{"input": "설비 고장 시 기본 확인 절차 알려줄래?", "output": "Rag Response"}
+{"input": "월별 생산 실적 선 차트로 보고 싶어", "output": "Function Call"}
+{"input": "불량률 개선 가능한 방안 추천해줘", "output": "Rag Response"}
+{"input": "5월 한 달 동안 생산 수량 총합 알려줘", "output": "SQL Query"}
+{"input": "주간 불량 수치 트렌드를 그래프로 보여줘", "output": "Function Call"}
+{"input": "설비 점검은 어떤 기준으로 진행해야 해?", "output": "Rag Response"}
+{"input": "AMR 1호 최근 주행 거리 기록 알려줘", "output": "SQL Query"}
+{"input": "이번 분기 설비별 생산량 알려줄래?", "output": "SQL Query"}
+{"input": "5월 12일 오전 10시 기준 설비 가동상태 보여줘", "output": "SQL Query"}
+{"input": "월간 불량 빈도 추세 그래프로 볼 수 있어?", "output": "Function Call"}
+{"input": "AMR 2호 배터리 상태 지금 어때?", "output": "SQL Query"}
+{"input": "설비 고장났을 때 기본적인 대응법 알려줘", "output": "Rag Response"}
+{"input": "내일 점심 뭐 먹을까 고민이야", "output": "General Response"}
+{"input": "AMR 7호 현재 위치 확인해줘", "output": "Function Call"}
+{"input": "최근 4개월 간 생산 계획 수치 보여줘", "output": "SQL Query"}
+{"input": "생산성 높이는 실질적인 방법 있으면 추천해줘", "output": "Rag Response"}
+{"input": "설비별 온도 추이 시각화해줘", "output": "Function Call"}
+{"input": "지난 2주간 불량품 몇 개 나왔는지 확인해줘", "output": "SQL Query"}
+{"input": "이번 주 날씨 어떤지 알려줄래?", "output": "General Response"}
+{"input": "AMR 5호가 이동한 거리 데이터 볼 수 있을까?", "output": "SQL Query"}
+{"input": "설비 점검 절차 좀 자세히 설명해줘", "output": "Rag Response"}
+{"input": "작년 하반기 생산 수량 변화 차트로 그려줘", "output": "Function Call"}
+{"input": "수고 많았어~", "output": "General Response"}
+{"input": "6월 1일부터 20일까지 불량 빈도 조회할 수 있어?", "output": "SQL Query"}
+{"input": "AMR 3호의 이동 경로 데이터 조회해줘", "output": "SQL Query"}
+{"input": "설비별 전력 소모량 선형 차트로 보여줘", "output": "Function Call"}
+{"input": "생산설비 안전 수칙 정리해서 알려줘", "output": "Rag Response"}
+{"input": "2025년 7월 생산 실적 확인 가능할까?", "output": "SQL Query"}
+{"input": "AMR1호 배터리 잔량 지금 상태 알려줘", "output": "SQL Query"}
+{"input": "설비별 불량률을 파이 차트로 시각화해줘", "output": "Function Call"}
+{"input": "불량률 높은 이유가 뭐야? 원인 좀 분석해줘", "output": "Rag Response"}
+{"input": "점심 메뉴 추천 좀 해줘", "output": "General Response"}
+{"input": "AMR 3호 지금 위치 확인해줄래?", "output": "Function Call"}
+{"input": "이번 주 생산 계획 수치 보여줘", "output": "SQL Query"}
+{"input": "설비 온도 데이터를 차트로 표현해줘", "output": "Function Call"}
+{"input": "설비에 문제가 생겼을 때 해결 방법 알려줘", "output": "Rag Response"}
+{"input": "오늘 하루도 힘내!", "output": "General Response"}
+{"input": "설비별 누적 사용 시간 확인해줘", "output": "SQL Query"}
+{"input": "AMR 전체 주행거리 요약해서 보여줘", "output": "SQL Query"}
+{"input": "2분기 생산계획 수치를 선형 차트로 보고 싶어", "output": "Function Call"}
+{"input": "설비 점검 기준이 어떻게 돼?", "output": "Rag Response"}
+{"input": "내일 날씨 알려줄래?", "output": "General Response"}
+{"input": "6월 10일 18시 기준 설비 상태 조회해줘", "output": "SQL Query"}
+{"input": "AMR 4호 이동 기록 좀 보여줘", "output": "SQL Query"}
+{"input": "생산 실적 트렌드 차트로 확인하고 싶어", "output": "Function Call"}
+{"input": "설비 안전 점검 절차 간단히 설명해줘", "output": "Rag Response"}
+{"input": "고마워요!", "output": "General Response"}
+{"input": "6월 기계별 운용 기록 보여줘", "output": "SQL Query"}
+{"input": "AMR 6호의 현재 배터리 상태 확인해줘", "output": "SQL Query"}
+{"input": "불량 빈도 추이 차트로 시각화해줘", "output": "Function Call"}
+{"input": "설비에 이상 있을 때 어떻게 대응해야 해?", "output": "Rag Response"}
+{"input": "안녕하세요~", "output": "General Response"}
+{"input": "6월 전체 생산량 데이터 알려줘", "output": "SQL Query"}
+{"input": "AMR 3호 주행 데이터를 시각화해서 보여줘", "output": "Function Call"}
+{"input": "설비별 에너지 소비량 조회 가능할까?", "output": "SQL Query"}
+{"input": "설비 점검 체크리스트 좀 알려줄래?", "output": "Rag Response"}
+{"input": "이번 주 날씨 어때?", "output": "General Response"}
+{"input": "정기 점검은 언제 해야 하나?", "output": "Rag Response"}
+{"input": "AMR 1호 현재 위치 확인 부탁해", "output": "Function Call"}
+{"input": "이번 분기 설비별 가동 내역 조회해줘", "output": "SQL Query"}
+{"input": "월별 계획수량을 시각화해줄래?", "output": "Function Call"}
+{"input": "설비 고장 시 누구에게 연락해야 해?", "output": "Rag Response"}
+{"input": "요즘 설비 온도가 높은 이유가 뭘까?", "output": "Rag Response"}
+{"input": "AMR 2호 배터리 잔량 지금 상태로 보여줘", "output": "SQL Query"}
+{"input": "지난달 불량률 수치 보여줄 수 있어?", "output": "SQL Query"}
+{"input": "설비별 가동 시간 차트로 시각화해줘", "output": "Function Call"}
+{"input": "AMR 8호의 위치 이력 보여줄래?", "output": "SQL Query"}
+{"input": "이번 주 생산 실적 요약해서 알려줘", "output": "SQL Query"}
+{"input": "설비 온도 변화 데이터 확인해줘", "output": "SQL Query"}
+{"input": "생산 계획 추이 그래프로 보고 싶어", "output": "Function Call"}
+{"input": "설비 이상 생기면 어떻게 조치해야 해?", "output": "Rag Response"}
+{"input": "AMR 4호 배터리 잔량 지금 얼마야?", "output": "SQL Query"}
+{"input": "6월 5일 오후 3시 기계 상태 알려줘", "output": "SQL Query"}
+{"input": "이번 분기 불량률 수치 보여줘", "output": "SQL Query"}
+{"input": "설비 점검 절차 간단하게 알려줘", "output": "Rag Response"}
+{"input": "안녕~ 오늘 잘 지냈어?", "output": "General Response"}
+{"input": "항상 고마워~", "output": "General Response"}
+{"input": "AMR 위치 관련 데이터 전부 보여줘", "output": "SQL Query"}
+{"input": "설비별 생산계획량 차트 만들어줘", "output": "Function Call"}
+{"input": "기계가 고장났을 때 처리 순서 알려줘", "output": "Rag Response"}
+{"input": "오늘 점심 추천 좀 해줘", "output": "General Response"}
+{"input": "AMR 35호 주행 데이터를 차트로 보고 싶어", "output": "Function Call"}
+{"input": "6월 생산 계획 수치 알려줘", "output": "SQL Query"}
+{"input": "설비 에너지 소비량 통계 보여줄래?", "output": "SQL Query"}
+{"input": "불량률이 높은 상황에서 어떤 대처가 필요해?", "output": "Rag Response"}
+{"input": "좋은 하루 되세요!", "output": "General Response"}
+{"input": "설비별 사용시간 데이터 조회해줘", "output": "SQL Query"}
+{"input": "AMR 6호 지금 어디 있는지 보여줘", "output": "Function Call"}
+{"input": "생산 실적 그래프로 확인할 수 있을까?", "output": "Function Call"}
+{"input": "설비 점검 기준 좀 정리해서 알려줘", "output": "Rag Response"}
+{"input": "오늘 날씨 맑은가?", "output": "General Response"}
+{"input": "최근 7일간 설비별 고장 횟수를 막대그래프로 보여줘", "output": "Function Call"}
+{"input": "작업자별 평균 작업 시간을 파이차트로 표현해줘", "output": "Function Call"}
+{"input": "최근 한 달간 품질 불량률 추이를 라인차트로 그려줘", "output": "Function Call"}
+{"input": "AMR별 이동 거리 히스토그램으로 시각화해줘", "output": "Function Call"}
+{"input": "설비 A의 하루 평균 가동시간을 차트로 보여줘", "output": "Function Call"}
+{"input": "라인별 에너지 사용량을 그래프로 표시해줘", "output": "Function Call"}
+{"input": "공정별 납기 지연 건수를 월별로 그래프화해줘", "output": "Function Call"}
+{"input": "최근 1주일간 라인별 생산량 추세를 보여줘", "output": "Function Call"}
+{"input": "AMR의 위치 데이터를 지도 위에 시각화해줘", "output": "Function Call"}
+{"input": "작업자별 생산성과 불량률을 비교하는 그래프 보여줘", "output": "Function Call"}
+{"input": "시간대별 설비 가동률을 꺾은선 그래프로 표현해줘", "output": "Function Call"}
+{"input": "설비별 온도 변화 추이를 그래프로 나타내줘", "output": "Function Call"}
+{"input": "라인별 평균 사이클 타임 비교 차트로 보여줘", "output": "Function Call"}
+{"input": "AMR 고장 빈도수를 바 차트로 나타내줘", "output": "Function Call"}
+{"input": "이달의 품질 검사 결과를 파이차트로 요약해줘", "output": "Function Call"}
+{"input": "공정 별 생산량 누적 그래프 보여줘", "output": "Function Call"}
+{"input": "AMR의 일일 가동률 히트맵 보여줘", "output": "Function Call"}
+{"input": "주간 라인별 불량률 트렌드를 시각화해줘", "output": "Function Call"}
+{"input": "작업자 별 교육 이수율 그래프로 보여줘", "output": "Function Call"}
+{"input": "라인 B의 월별 고장 건수 시계열로 표현해줘", "output": "Function Call"}
+{"input": "라인 C의 가동률과 정지 시간을 비교해줘", "output": "Function Call"}
+{"input": "라인별 평균 처리 시간의 상자그림(Boxplot) 보여줘", "output": "Function Call"}
+{"input": "라인 A와 B의 생산량 비교 그래프 그려줘", "output": "Function Call"}
+{"input": "월별 품질 트렌드를 선형 회귀선과 함께 시각화해줘", "output": "Function Call"}
+{"input": "설비의 누적 가동 시간 그래프로 표현해줘", "output": "Function Call"}
+{"input": "작업자 별 고장 발생률 그래프로 표현해줘", "output": "Function Call"}
+{"input": "시간대별 AMR 배터리 사용량 시각화해줘", "output": "Function Call"}
+{"input": "공정별 생산 효율 비교 차트로 나타내줘", "output": "Function Call"}
+{"input": "최근 30일간 설비별 유지보수 시간 그래프 보여줘", "output": "Function Call"}
+{"input": "AMR 운영 효율을 시간대 기준으로 분석한 그래프 만들어줘", "output": "Function Call"}
+{"input": "설비 작동 안 하면 초기 점검 항목이 뭐야?", "output": "Rag Response"}
+{"input": "정기 점검 시 체크할 항목 알려줘", "output": "Rag Response"}
+{"input": "작업 중 경고음이 울리면 어떤 문제가 있을 수 있어?", "output": "Rag Response"}
+{"input": "설비 이상 진단을 위해 먼저 확인할 건 뭐야?", "output": "Rag Response"}
+{"input": "고장 난 설비 수동 리셋 방법 알려줘", "output": "Rag Response"}
+{"input": "AMR 충전 문제 발생 시 대처 방법이 궁금해", "output": "Rag Response"}
+{"input": "작업자의 안전 보호 장비 착용 기준 알려줘", "output": "Rag Response"}
+{"input": "공정 중지 시 취해야 할 조치가 뭔가요?", "output": "Rag Response"}
+{"input": "설비 전원 이상 발생 시 메뉴얼에 뭐라고 되어 있어?", "output": "Rag Response"}
+{"input": "라인 재시작 전 필요한 점검 절차는?", "output": "Rag Response"}
+{"input": "정전 후 시스템 복구 순서 알려줘", "output": "Rag Response"}
+{"input": "작업자 교대 시 유의사항이 뭐야?", "output": "Rag Response"}
+{"input": "AMR 고장 시 어떤 항목을 점검해야 해?", "output": "Rag Response"}
+{"input": "배터리 수명 연장하는 사용법이 있나요?", "output": "Rag Response"}
+{"input": "작업 중 누수 발생 시 즉시 조치할 사항은?", "output": "Rag Response"}
+{"input": "라인 청소 규정이 어떻게 되어 있어?", "output": "Rag Response"}
+{"input": "안전사고 발생 시 보고 절차가 궁금해", "output": "Rag Response"}
+{"input": "라인 속도 조절 기준이 있나요?", "output": "Rag Response"}
+{"input": "설비 정지 버튼은 언제 눌러야 해?", "output": "Rag Response"}
+{"input": "이상 진동 감지 시 어떤 조치가 필요해?", "output": "Rag Response"}
+{"input": "기계 소음이 평소보다 크면 뭘 점검해야 해?", "output": "Rag Response"}
+{"input": "계측기 교정 주기 알려줘", "output": "Rag Response"}
+{"input": "AMR의 적재 용량 기준이 뭔가요?", "output": "Rag Response"}
+{"input": "장비 오작동 시 관리자 호출 전 확인할 사항은?", "output": "Rag Response"}
+{"input": "라인 시작 전 장비 예열 시간 기준 있어?", "output": "Rag Response"}
+{"input": "작업 중 정전기 방지 조치는 어떤 게 있어?", "output": "Rag Response"}
+{"input": "작업복 착용 시 주의사항 알려줘", "output": "Rag Response"}
+{"input": "비상 상황 시 대피 경로 어디로 가야 해?", "output": "Rag Response"}
+{"input": "장비 청소 후 재가동 절차 어떻게 돼?", "output": "Rag Response"}
+{"input": "라인 점검은 하루에 몇 번 해야 해?", "output": "Rag Response"}
+{"input": "고마워", "output": "General Response"}
+{"input": "수고했어!", "output": "General Response"}
+{"input": "좋은 아침이야", "output": "General Response"}
+{"input": "잘 지내?", "output": "General Response"}
+{"input": "너 정말 똑똑하네", "output": "General Response"}
+{"input": "도움이 많이 됐어", "output": "General Response"}
+{"input": "정말 친절하네", "output": "General Response"}
+{"input": "오늘 날씨 좋지?", "output": "General Response"}
+{"input": "밥은 먹었어?", "output": "General Response"}
+{"input": "넌 어디서 왔어?", "output": "General Response"}
+{"input": "정말 대단하네", "output": "General Response"}
+{"input": "참 고마운 친구야", "output": "General Response"}
+{"input": "기분 좋아 보여", "output": "General Response"}
+{"input": "지금 뭐 하고 있어?", "output": "General Response"}
+{"input": "피곤하지 않아?", "output": "General Response"}
+{"input": "반가워", "output": "General Response"}
+{"input": "이름이 뭐야?", "output": "General Response"}
+{"input": "잘 자", "output": "General Response"}
+{"input": "즐거운 하루 보내", "output": "General Response"}
+{"input": "점심 맛있게 먹었어?", "output": "General Response"}
+{"input": "좋은 하루 되길 바래", "output": "General Response"}
+{"input": "이런 말 해줘서 고마워", "output": "General Response"}
+{"input": "와, 신기하다!", "output": "General Response"}
+{"input": "그럴 수도 있겠다", "output": "General Response"}
+{"input": "좋은 생각이야", "output": "General Response"}
+{"input": "그렇게 할게", "output": "General Response"}
+{"input": "천재야 너", "output": "General Response"}
+{"input": "간단하게 설명해줘서 좋아", "output": "General Response"}
+{"input": "또 물어봐도 돼?", "output": "General Response"}
+{"input": "그건 몰랐네", "output": "General Response"}
+{"input": "정확하게 알려줘서 고마워", "output": "General Response"}
+{"input": "오늘도 힘내자!", "output": "General Response"}
+{"input": "이야기 나눠서 즐거웠어", "output": "General Response"}
+{"input": "다음에 또 물어볼게", "output": "General Response"}
+{"input": "정말 똑부러진다", "output": "General Response"}
+{"input": "귀엽네", "output": "General Response"}
+{"input": "오늘은 기분 좋아", "output": "General Response"}
+{"input": "쉬는 시간엔 뭐해?", "output": "General Response"}
+{"input": "말 예쁘게 하네", "output": "General Response"}
+{"input": "좋은 정보 고마워", "output": "General Response"}
+{"input": "답변이 마음에 들어", "output": "General Response"}
+{"input": "이런 질문도 받아줘서 고마워", "output": "General Response"}
+{"input": "오늘은 무슨 요일이야?", "output": "General Response"}
+{"input": "새로운 걸 알게 됐어", "output": "General Response"}
+{"input": "지금도 배워가는 중이야", "output": "General Response"}
+{"input": "계속 응원할게", "output": "General Response"}
+{"input": "이 정도면 충분해", "output": "General Response"}
+{"input": "잠깐 쉬었다 올게", "output": "General Response"}
+{"input": "다시 대화하자", "output": "General Response"}
+{"input": "네가 있어 든든해", "output": "General Response"}
+{"input": "지금 너무 멋져", "output": "General Response"}
+{"input": "또 만날 수 있을까?", "output": "General Response"}
+{"input": "잠깐만 기다려줘", "output": "General Response"}
+{"input": "지금 이야기해도 돼?", "output": "General Response"}
+{"input": "그 얘기 더 해줘", "output": "General Response"}
+{"input": "기분이 좀 울적해", "output": "General Response"}
+{"input": "힘나는 말 한마디 해줘", "output": "General Response"}
+{"input": "너랑 얘기하면 재밌어", "output": "General Response"}
+{"input": "조금 어려웠지만 이해했어", "output": "General Response"}
+{"input": "혼자 두지 말아줘", "output": "General Response"}
+{"input": "좋은 하루였어", "output": "General Response"}
+{"input": "내일 뭐할 거야?", "output": "General Response"}
+{"input": "이제 자야겠어", "output": "General Response"}
+{"input": "편안한 밤 되길", "output": "General Response"}
+{"input": "나중에 다시 이야기하자", "output": "General Response"}
+{"input": "넌 언제나 준비되어 있네", "output": "General Response"}
+{"input": "조금 더 자세히 말해줄래?", "output": "General Response"}
+{"input": "괜찮아, 실수할 수도 있지", "output": "General Response"}
+{"input": "그럴 땐 어떻게 해야 할까?", "output": "General Response"}
+{"input": "네가 추천해줘", "output": "General Response"}
+{"input": "궁금한 게 또 생겼어", "output": "General Response"}
+{"input": "너무 피곤해", "output": "General Response"}
+{"input": "지금은 그냥 얘기하고 싶어", "output": "General Response"}
+{"input": "재밌는 얘기 하나 해줘", "output": "General Response"}
+{"input": "지금 집중이 안 돼", "output": "General Response"}
+{"input": "잠깐 쉴까?", "output": "General Response"}
+{"input": "시간 금방 가네", "output": "General Response"}
+{"input": "마음이 복잡해", "output": "General Response"}
+{"input": "오늘 하루 어땠어?", "output": "General Response"}
+{"input": "넌 어떤 걸 좋아해?", "output": "General Response"}
+{"input": "조금 쉬고 올게", "output": "General Response"}
+{"input": "이 얘긴 비밀이야", "output": "General Response"}
+{"input": "조용히 있고 싶어", "output": "General Response"}
+{"input": "그냥 내버려 둬", "output": "General Response"}
+{"input": "혼자 있고 싶어", "output": "General Response"}
+{"input": "도움이 필요해", "output": "General Response"}
+{"input": "말 걸어줘서 고마워", "output": "General Response"}
+{"input": "네 말이 맞는 거 같아", "output": "General Response"}
+{"input": "설명 잘해줘서 이해됐어", "output": "General Response"}
+{"input": "너무 빠르게 말하지 마", "output": "General Response"}
+{"input": "너도 쉬고 싶을 때 있지?", "output": "General Response"}
+{"input": "이야기하면서 기분이 나아졌어", "output": "General Response"}
+{"input": "혼자 해결할 수 있을 거 같아", "output": "General Response"}
+{"input": "계속해서 배워가고 있어", "output": "General Response"}
+{"input": "그런 말 처음 들어봐", "output": "General Response"}
+{"input": "다시 한 번 설명해줄래?", "output": "General Response"}
+{"input": "말이 너무 어려워", "output": "General Response"}
+{"input": "그 말 너무 고마워", "output": "General Response"}
+{"input": "오늘도 수고했어", "output": "General Response"}
